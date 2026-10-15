@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8"><title>写作指导两页 Demo</title>
+<style>
+ body {{ background:#e8e8e8; font-family:sans-serif; padding:30px; }}
+ h1 {{ color:#111; }} h2 {{ color:#333; margin:34px 0 10px; }}
+ .device {{ width:600px; height:800px; border:14px solid #333; border-radius:18px;
+           overflow:hidden; background:#fff; box-shadow:0 4px 16px rgba(0,0,0,.25); }}
+ iframe {{ width:100%; height:100%; border:0; }}
+ p.note {{ color:#666; max-width:640px; line-height:1.6; }}
+</style></head><body>
+<h1>Kindle 写作指导 · 两页 Demo</h1>
+<p class="note">下面两个"设备框"模拟 Kindle 浏览器可视区域（600×800，白底黑字即墨水屏效果）。<br>
+实际播放：随机抽中「英语写作指导」时先显示第 1 页，2 分钟后 Kindle 自动刷新，若池子里再次抽中该单元就自动翻到第 2 页（页眉有"第x/2页"指示，循环播放）。</p>
+<h2>第 1 页 · 写作方法论（随机命中后先显示）</h2>
+<div class="device"><iframe src="writing_page_1.html"></iframe></div>
+<h2>第 2 页 · 加分句型与范文套路（下次命中自动翻到）</h2>
+<div class="device"><iframe src="writing_page_2.html"></iframe></div>
+</body></html>

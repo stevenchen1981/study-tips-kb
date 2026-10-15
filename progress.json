@@ -1,0 +1,23 @@
+{
+  "subjects": {
+    "english": {
+      "term": "8A",
+      "term_start": "2026-09-01",
+      "weeks_per_unit": 2.5,
+      "override_unit": null
+    },
+    "physics": {
+      "term": "8A",
+      "term_start": "2026-09-01",
+      "weeks_per_unit": 4,
+      "override_unit": null
+    },
+    "math": {
+      "term": "8A",
+      "term_start": "2026-09-01",
+      "weeks_per_unit": 5,
+      "override_unit": null
+    }
+  },
+  "note": "滚动复习模式：总体按学期进度走（term_start + weeks_per_unit 推算已学单元数），随机范围 = 已学过的全部单元（随学习推进池子越来越大，期末即全量随机）。英语技能专栏(EXAM)以25%概率插入。override_unit 可手动锁定进度（填已学到的单元序号）；学期切换时改 term。数学苏科版 8A 共4章（5周/章），8B 共8章。"
+}

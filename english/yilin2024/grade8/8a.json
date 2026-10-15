@@ -1,0 +1,605 @@
+{
+  "book": {
+    "subject": "english",
+    "publisher": "译林出版社",
+    "edition": "2024新教材（牛津译林版2024）",
+    "grade": 8,
+    "grade_cn": "八年级（初二）",
+    "term": "上册",
+    "term_code": "8A",
+    "verified_at": "2026-09-24",
+    "note": "单元目录与语法分布对照2024新教材课本目录与Grammar课件核实（U6=动词及基本句型I 主谓/主谓宾/主系表，U7=动词及基本句型II 双宾语与宾补）；词表与易错点参考教师整理笔记（小红书/学科网/21世纪教育网公开资料），开学后建议对照课本 Wordlist 微调。"
+  },
+  "units": [
+    {
+      "unit": 1,
+      "title": "Friendship",
+      "topic_cn": "友谊与人物品质描述",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "friendship", "cn": "友谊"},
+        {"en": "honest", "cn": "诚实的（反义 dishonest）"},
+        {"en": "generous", "cn": "慷慨的"},
+        {"en": "humorous", "cn": "幽默的（humour n.）"},
+        {"en": "patient", "cn": "耐心的（patience n.）"},
+        {"en": "cheerful", "cn": "开朗的"},
+        {"en": "caring", "cn": "关心他人的，体贴的"},
+        {"en": "thoughtful", "cn": "体贴的"},
+        {"en": "trustworthy", "cn": "值得信赖的"},
+        {"en": "energetic", "cn": "精力充沛的（energy n.）"},
+        {"en": "shy", "cn": "害羞的"},
+        {"en": "brave", "cn": "勇敢的（bravery n.）"},
+        {"en": "truth", "cn": "事实，真相（tell the truth）"},
+        {"en": "lie", "cn": "v. 撒谎（lied-lied-lying）；躺（lay-lain）"},
+        {"en": "joke", "cn": "笑话"},
+        {"en": "laugh", "cn": "笑（laughter n. 笑声）"},
+        {"en": "bored", "cn": "感到厌倦的（人）；boring 令人厌倦的（物）"},
+        {"en": "secret", "cn": "秘密"},
+        {"en": "trust", "cn": "v./n. 信任"},
+        {"en": "share", "cn": "分享"},
+        {"en": "encourage", "cn": "鼓励（encouragement n.）"},
+        {"en": "sense", "cn": "感觉；理解力（a sense of humour）"},
+        {"en": "height", "cn": "身高，高度"},
+        {"en": "scared", "cn": "害怕的（scare v./n.）"}
+      ],
+      "key_phrases": [
+        {"en": "cheer sb up", "cn": "使某人振奋"},
+        {"en": "encourage sb to do sth", "cn": "鼓励某人做某事"},
+        {"en": "keep secrets for sb", "cn": "为某人保守秘密"},
+        {"en": "share ... with ...", "cn": "和……分享……"},
+        {"en": "make friends with sb", "cn": "与某人交朋友"},
+        {"en": "care about", "cn": "关心，在意"},
+        {"en": "people in need", "cn": "需要帮助的人"},
+        {"en": "support each other", "cn": "互相支持"},
+        {"en": "a sense of humour", "cn": "幽默感"},
+        {"en": "get along with sb", "cn": "与某人相处融洽"},
+        {"en": "feel like doing sth", "cn": "想做某事"},
+        {"en": "have a point", "cn": "有道理"},
+        {"en": "make sb laugh", "cn": "使某人发笑"},
+        {"en": "tell lies", "cn": "说谎"},
+        {"en": "stand by your side", "cn": "站在你身边，支持你"},
+        {"en": "get to know each other", "cn": "互相了解"}
+      ],
+      "grammar": {
+        "name": "形容词的比较级与最高级",
+        "key_points": [
+          "规则变化：一般加 -er/-est；以 e 结尾加 -r/-st；辅音字母+y 结尾变 y 为 i；重读闭音节双写尾字母；多音节词前加 more/most",
+          "不规则变化：good/well→better→best；bad/badly→worse→worst；many/much→more→most；little→less→least；far→farther/further",
+          "程度修饰：比较级前可加 much / a lot / a little / even / far（如 a lot hotter）",
+          "句型：the + 比较级 + of the two（两者中更……的）；比较级 + and + 比较级（越来越……）；the + 比较级..., the + 比较级...（越……越……）",
+          "最高级：the + 最高级 + in/of + 范围"
+        ],
+        "examples": [
+          "Max is the tallest boy in our class.",
+          "A good friend makes you happier.",
+          "Amy is the shorter of the twin sisters."
+        ]
+      },
+      "sentence_patterns": [
+        "What's your friend like? — He is kind and friendly.",
+        "She is always ready to help people in need.",
+        "Who would you choose as your best friend?"
+      ],
+      "writing_topic": "My best friend（外貌+性格+一件体现品质的小事）",
+      "exam_focus": [
+        "词形转换：happy→happier→happiest，heavy→heavier 等辅音+y 变化最容易考",
+        "选择填空高频：the + 比较级 of the two；much/a lot 修饰比较级",
+        "bored（人感到无聊）vs boring（令人无聊）：I'm bored with the boring film.",
+        "lie 两义：撒谎 lied-lied-lying；躺 lay-lain-lying",
+        "比较句中 that/those 替代：The weather in Beijing is colder than that in Shanghai."
+      ],
+      "tips": [
+        {"id": "8a-u1-01", "slot": "morning", "tag": "词汇", "text": "早读：用5个形容词口头描述你的好朋友，每个词配一句例子。"},
+        {"id": "8a-u1-02", "slot": "any", "tag": "语法", "text": "辅音字母+y结尾的形容词变比较级：happy→happier，heavy→heavier，easy→easier。"},
+        {"id": "8a-u1-03", "slot": "any", "tag": "语法", "text": "不规则变化记牢：good/well→better→best；bad→worse→worst；far→farther/further。"},
+        {"id": "8a-u1-04", "slot": "any", "tag": "易错", "text": "比较级前能加 much/a lot/even/far，但不能加 very。very taller ✗ → much taller ✓"},
+        {"id": "8a-u1-05", "slot": "any", "tag": "句型", "text": "两者中更……的那个：the + 比较级 + of the two。He is the taller of the two boys."},
+        {"id": "8a-u1-06", "slot": "evening", "tag": "自测", "text": "睡前自测：写出 taller / nicer / bigger / heavier / more helpful 的原级。"},
+        {"id": "8a-u1-07", "slot": "any", "tag": "词汇", "text": "encourage 用法：encourage sb to do sth。My friends encourage me to try new things."},
+        {"id": "8a-u1-08", "slot": "any", "tag": "写作", "text": "写朋友作文三段式：外貌→性格品质→用一件小事证明（one thing he/she did）。"},
+        {"id": "8a-u1-09", "slot": "evening", "tag": "方法", "text": "睡前大声朗读今天课文段落5分钟，练语感比默背更省力。"},
+        {"id": "8a-u1-10", "slot": "morning", "tag": "语法", "text": "越……越……：the + 比较级, the + 比较级。The more, the better."},
+        {"id": "8a-u1-11", "slot": "any", "tag": "易错", "text": "-ed 修饰人，-ing 修饰物：I feel bored. / The film is boring。一组记透：excited/exciting。"},
+        {"id": "8a-u1-12", "slot": "any", "tag": "易错", "text": "比较对象要对等，用 that/those 替代：The air here is cleaner than that in my hometown."},
+        {"id": "8a-u1-13", "slot": "any", "tag": "句型", "text": "make sb do 不带 to：The joke made everyone laugh. 不是 made everyone to laugh。"}
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "School life",
+      "topic_cn": "学校生活与数量比较",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "subject", "cn": "科目"},
+        {"en": "language", "cn": "语言"},
+        {"en": "foreign", "cn": "外国的"},
+        {"en": "discuss", "cn": "讨论"},
+        {"en": "club", "cn": "俱乐部，社团"},
+        {"en": "activity", "cn": "活动"},
+        {"en": "timetable", "cn": "课程表"},
+        {"en": "uniform", "cn": "校服"},
+        {"en": "magazine", "cn": "杂志"},
+        {"en": "ideal", "cn": "理想的"},
+        {"en": "daily", "cn": "日常的"},
+        {"en": "practice", "cn": "练习；v. 练习"},
+        {"en": "offer", "cn": "提供；主动提出（offer to do）"},
+        {"en": "programme", "cn": "课程；计划；节目"},
+        {"en": "plenty of", "cn": "大量（可数/不可数均可）"},
+        {"en": "aware", "cn": "意识到的（be aware of）"},
+        {"en": "junior", "cn": "初级的；青少年的"},
+        {"en": "vacation", "cn": "假期（美式）"},
+        {"en": "unusual", "cn": "不寻常的（usual→unusual）"},
+        {"en": "careless", "cn": "粗心的（careful 反义词）"}
+      ],
+      "key_phrases": [
+        {"en": "more/fewer/less ... than", "cn": "比……更多/更少（可数/不可数）"},
+        {"en": "the most / the fewest / the least", "cn": "最多/最少（可数/不可数）"},
+        {"en": "as ... as", "cn": "和……一样"},
+        {"en": "not as/so ... as", "cn": "不如……"},
+        {"en": "after-school activities", "cn": "课后活动"},
+        {"en": "spend time on sth / (in) doing sth", "cn": "花时间在某事/做某事上"},
+        {"en": "look forward to (doing) sth", "cn": "期待（做）某事（to 是介词！）"},
+        {"en": "have a go", "cn": "尝试一下"},
+        {"en": "for free", "cn": "免费"},
+        {"en": "be aware of", "cn": "意识到"},
+        {"en": "at least", "cn": "至少"},
+        {"en": "learn about", "cn": "了解，学习关于……"}
+      ],
+      "grammar": {
+        "name": "数量的比较（more/fewer/less）与原级比较（as...as）",
+        "key_points": [
+          "可数名词复数用 more/fewer：more books, fewer clubs",
+          "不可数名词用 more/less：more time, less homework",
+          "最高级：the most / the fewest / the least",
+          "as + 原级 + as：和……一样；否定 not as/so + 原级 + as：不如……",
+          "同义转换：not as...as = less...than"
+        ],
+        "examples": [
+          "Our school has fewer students than theirs.",
+          "I spend less time on homework than you.",
+          "Millie is not as tall as Amy."
+        ]
+      },
+      "sentence_patterns": [
+        "Which subject do you like best?",
+        "My school life is as colourful as yours.",
+        "We have more after-school activities this term."
+      ],
+      "writing_topic": "My ideal school / My school life（作息、课程、社团、与旧学校比较）",
+      "exam_focus": [
+        "fewer 修饰可数、less 修饰不可数——单选必考",
+        "as...as 中间用原级：as tall as，不能说 as taller as",
+        "few（几乎没有，否定）vs a few（有几个，肯定）；little / a little 同理（修饰不可数）",
+        "look forward to 中 to 是介词：look forward to seeing you（不是 to see）"
+      ],
+      "tips": [
+        {"id": "8a-u2-01", "slot": "any", "tag": "易错", "text": "fewer + 可数复数（fewer books），less + 不可数（less water），别混。"},
+        {"id": "8a-u2-02", "slot": "any", "tag": "语法", "text": "as...as 中间永远用原级：as interesting as。not as/so...as = 不如。"},
+        {"id": "8a-u2-03", "slot": "morning", "tag": "口语", "text": "早读时比较两门科目：I have more fun in English than in ... 造两句。"},
+        {"id": "8a-u2-04", "slot": "any", "tag": "词汇", "text": "spend 的搭配：spend + 时间/钱 + on sth / (in) doing sth。"},
+        {"id": "8a-u2-05", "slot": "any", "tag": "句型", "text": "同义句转换常考：not as...as = less...than。He is less careful than me. = He is not as careful as me."},
+        {"id": "8a-u2-06", "slot": "evening", "tag": "自测", "text": "睡前自测：more / fewer / less 各造一句，检查名词是否可数。"},
+        {"id": "8a-u2-07", "slot": "any", "tag": "语法", "text": "最高级三个搭配：the most + 名词（不可数）、the fewest + 可数复数、the least + 不可数。"},
+        {"id": "8a-u2-08", "slot": "any", "tag": "写作", "text": "写理想学校至少用两次比较：more outdoor activities, less homework。"},
+        {"id": "8a-u2-09", "slot": "evening", "tag": "方法", "text": "睡前把今天错的1道题讲给自己听一遍，能讲清才是真懂。"},
+        {"id": "8a-u2-10", "slot": "morning", "tag": "词汇", "text": "activity 复数 activities；discuss 后直接接宾语，不加 about。"},
+        {"id": "8a-u2-11", "slot": "any", "tag": "易错", "text": "look forward to + doing：I look forward to hearing from you. to 是介词，后面跟动名词。"},
+        {"id": "8a-u2-12", "slot": "any", "tag": "词汇", "text": "few = 几乎没有（否定）；a few = 有几个（肯定）。There is little water = 没多少水了。"},
+        {"id": "8a-u2-13", "slot": "any", "tag": "句型", "text": "offer 双用法：offer sb sth = offer sth to sb；offer to do 主动提出做某事。"}
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "To be a good learner",
+      "topic_cn": "学会学习：方法与习惯",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "curious", "cn": "好奇的"},
+        {"en": "knowledge", "cn": "知识"},
+        {"en": "wise", "cn": "明智的"},
+        {"en": "method", "cn": "方法"},
+        {"en": "habit", "cn": "习惯"},
+        {"en": "review", "cn": "复习；n. 复习"},
+        {"en": "progress", "cn": "进步"},
+        {"en": "correct", "cn": "正确的；v. 改正"},
+        {"en": "mistake", "cn": "错误"},
+        {"en": "active", "cn": "积极的"},
+        {"en": "improve", "cn": "改进，提高"},
+        {"en": "note", "cn": "笔记"}
+      ],
+      "key_phrases": [
+        {"en": "make progress", "cn": "取得进步"},
+        {"en": "take notes", "cn": "记笔记"},
+        {"en": "pay attention to", "cn": "集中注意于"},
+        {"en": "learn from mistakes", "cn": "从错误中学习"},
+        {"en": "work out", "cn": "解决；算出"},
+        {"en": "by oneself / on one's own", "cn": "独自，靠 oneself 自己"},
+        {"en": "ask for help", "cn": "寻求帮助"},
+        {"en": "enjoy oneself", "cn": "玩得开心"}
+      ],
+      "grammar": {
+        "name": "副词的比较级与最高级；反身代词",
+        "key_points": [
+          "副词比较级：harder, faster, earlier, more slowly, more carefully",
+          "不规则：well→better→best；badly→worse→worst；far→farther/further",
+          "最高级前 the 可省略（副词最高级）：He runs (the) fastest in our class.",
+          "反身代词：myself, yourself, himself, herself, itself, ourselves, yourselves, themselves",
+          "常见搭配：enjoy oneself / by oneself / help yourself (to) / teach oneself / hurt oneself",
+          "反身代词不能单独作主语：Myself did it ✗"
+        ],
+        "examples": [
+          "Kitty dances better than Simon.",
+          "He did the experiment by himself.",
+          "Help yourself to some fish."
+        ]
+      },
+      "sentence_patterns": [
+        "The more you read, the more you know.",
+        "I made great progress by reviewing every day.",
+        "We should pay attention to the details."
+      ],
+      "writing_topic": "How to be a good learner（2-3条方法+具体例子）",
+      "exam_focus": [
+        "区分形容词/副词：认真地 carefully（副词）vs 认真的 careful（形容词）",
+        "反身代词与主语对应：主语是 we → ourselves"
+      ],
+      "tips": [
+        {"id": "8a-u3-01", "slot": "any", "tag": "语法", "text": "副词比较级：quickly→more quickly，early→earlier。well→better→best 是最高频考点。"},
+        {"id": "8a-u3-02", "slot": "any", "tag": "易错", "text": "修饰动词用副词：He studies hard.（不是 hardly！hardly=几乎不）"},
+        {"id": "8a-u3-03", "slot": "any", "tag": "语法", "text": "反身代词搭配：enjoy oneself 玩得开心，by oneself 独自，teach oneself 自学。"},
+        {"id": "8a-u3-04", "slot": "morning", "tag": "方法", "text": "早读用『3-2-1』：今天要记3个词、2个短语、1个句型，写在本子上。"},
+        {"id": "8a-u3-05", "slot": "any", "tag": "句型", "text": "the + 比较级, the + 比较级：The more carefully you write, the fewer mistakes you make."},
+        {"id": "8a-u3-06", "slot": "evening", "tag": "自测", "text": "睡前闭眼过一遍今天课堂流程，用英语说出3个记住的词或句。"},
+        {"id": "8a-u3-07", "slot": "any", "tag": "词汇", "text": "progress 不可数：make great progress ✓，a progress ✗"},
+        {"id": "8a-u3-08", "slot": "any", "tag": "写作", "text": "学习方法作文套路：总起→方法1+例子→方法2+例子→总结，用上 by oneself 和 make progress。"},
+        {"id": "8a-u3-09", "slot": "evening", "tag": "方法", "text": "睡前把明天要交的作业核对一遍，减少早上慌乱——好学习者赢在前一晚。"},
+        {"id": "8a-u3-10", "slot": "morning", "tag": "语法", "text": "副词最高级的 the 可省：She sings (the) best in our class."}
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Hands-on fun",
+      "topic_cn": "动手乐趣：DIY 与建议表达",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "instruction", "cn": "说明"},
+        {"en": "scissors", "cn": "剪刀"},
+        {"en": "glue", "cn": "胶水"},
+        {"en": "tape", "cn": "胶带"},
+        {"en": "repair", "cn": "修理"},
+        {"en": "decorate", "cn": "装饰"},
+        {"en": "tool", "cn": "工具"},
+        {"en": "brush", "cn": "刷子；v. 刷"},
+        {"en": "exactly", "cn": "确切地"},
+        {"en": "instead", "cn": "代替，反而"},
+        {"en": "terrible", "cn": "糟糕的"},
+        {"en": "once", "cn": "一次；曾经"}
+      ],
+      "key_phrases": [
+        {"en": "had better (not) do sth", "cn": "最好（不要）做某事"},
+        {"en": "instead of doing sth", "cn": "而不是做某事"},
+        {"en": "put up", "cn": "张贴，搭建"},
+        {"en": "cut out", "cn": "剪出，剪下"},
+        {"en": "go wrong", "cn": "出毛病，出错"},
+        {"en": "add ... to ...", "cn": "把……加到……"},
+        {"en": "make ... by hand", "cn": "手工制作……"},
+        {"en": "stick ... together", "cn": "把……粘在一起"}
+      ],
+      "grammar": {
+        "name": "祈使句；should 与 had better",
+        "key_points": [
+          "肯定祈使句：以动词原形开头。Cut the paper into pieces.",
+          "否定祈使句：Don't + 动词原形。Don't touch the wet paint.",
+          "Let's + 动词原形（包括说话人在内的建议）：Let's make a card for Mum.",
+          "should (not) do：建议、义务，语气一般",
+          "had better (not) do：劝告、提醒，语气更强，常指当下最好这样做；否定是 had better not do",
+          "祈使句 + and/or + 将来结果：Work hard, and you will pass."
+        ],
+        "examples": [
+          "Read the instructions carefully before you start.",
+          "You'd better not paint the wall without help.",
+          "Don't be late for the DIY class."
+        ]
+      },
+      "sentence_patterns": [
+        "First ... Next ... Then ... Finally ...（描述制作步骤）",
+        "You'd better read the instructions first.",
+        "What did you make by yourself?"
+      ],
+      "writing_topic": "A DIY experience（用 First/Next/Then/Finally 写清步骤，加一次失败或成功）",
+      "exam_focus": [
+        "had better 后接动词原形，否定 had better not do（不是 don't）",
+        "祈使句的反意疑问用 will you：Don't be late, will you?"
+      ],
+      "tips": [
+        {"id": "8a-u4-01", "slot": "any", "tag": "语法", "text": "祈使句 = 动词原形开头。否定加 Don't：Don't cut your fingers!"},
+        {"id": "8a-u4-02", "slot": "any", "tag": "易错", "text": "had better not do（否定直接跟 not）：You'd better not touch it. 不是 had not better。"},
+        {"id": "8a-u4-03", "slot": "any", "tag": "句型", "text": "祈使句 + and/or：Hurry up, or you'll miss the bus. Work hard, and you'll make it."},
+        {"id": "8a-u4-04", "slot": "morning", "tag": "词汇", "text": "早读认工具词：scissors（复数形式）、glue、tape、brush、tool——默写一遍。"},
+        {"id": "8a-u4-05", "slot": "any", "tag": "词汇", "text": "instead of + doing：He watched TV instead of doing homework. instead 后接句子时单独用。"},
+        {"id": "8a-u4-06", "slot": "evening", "tag": "自测", "text": "睡前口头说一遍泡面/冲牛奶的4个步骤，全用祈使句。"},
+        {"id": "8a-u4-07", "slot": "any", "tag": "语法", "text": "Let's ... 的反意疑问用 shall we：Let's start, shall we?"},
+        {"id": "8a-u4-08", "slot": "any", "tag": "写作", "text": "步骤作文四件套：First / Next / Then / Finally，评委老师最爱看顺序词。"},
+        {"id": "8a-u4-09", "slot": "evening", "tag": "方法", "text": "睡前用英语给家人下3个『指令』（Open the door...），练祈使句语感。"},
+        {"id": "8a-u4-10", "slot": "morning", "tag": "句型", "text": "建议三选一练表达：You should... / You'd better... / Don't... 各说一句。"}
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Wild animals",
+      "topic_cn": "野生动物与保护",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "wild", "cn": "野生的；n. 野生状态"},
+        {"en": "eagle", "cn": "鹰"},
+        {"en": "wolf", "cn": "狼（复数 wolves）"},
+        {"en": "shark", "cn": "鲨鱼"},
+        {"en": "giant panda", "cn": "大熊猫"},
+        {"en": "tiny", "cn": "极小的"},
+        {"en": "weigh", "cn": "重达……（名词 weight）"},
+        {"en": "hunt", "cn": "猎杀"},
+        {"en": "protection", "cn": "保护"},
+        {"en": "serious", "cn": "严重的"},
+        {"en": "increase", "cn": "增加"},
+        {"en": "danger", "cn": "危险"},
+        {"en": "manage", "cn": "设法完成"},
+        {"en": "meaningful", "cn": "有意义的"}
+      ],
+      "key_phrases": [
+        {"en": "in danger (of)", "cn": "处于（……的）危险中"},
+        {"en": "take action to do sth", "cn": "采取行动做某事"},
+        {"en": "make an effort to do sth", "cn": "努力做某事"},
+        {"en": "in the wild", "cn": "在野外"},
+        {"en": "on one's own", "cn": "独自"},
+        {"en": "face many risks", "cn": "面临许多危险"},
+        {"en": "protect ... from ...", "cn": "保护……免受……"},
+        {"en": "once in a while", "cn": "偶尔"}
+      ],
+      "grammar": {
+        "name": "动词不定式（作宾语、目的状语、形式主语）",
+        "key_points": [
+          "常见接不定式作宾语的动词：want, hope, decide, plan, agree, refuse, manage, learn",
+          "否定：decide not to do",
+          "目的状语：to do / in order to do（为了……），可放句首或句尾",
+          "It is + adj + for/of sb + to do：for 的形容词描述事物（important, necessary, difficult）；of 的形容词描述人的品质（kind, nice, clever, brave）",
+          "疑问词 + to do：She doesn't know how to solve it.",
+          "不定式作宾补：ask/tell/invite sb (not) to do sth",
+          "remember/forget + to do（未做）vs doing（已做）"
+        ],
+        "examples": [
+          "It is important for us to protect wild animals.",
+          "It is kind of you to help me.",
+          "Pandas are losing their homes, so we must act to help them."
+        ]
+      },
+      "sentence_patterns": [
+        "If we don't protect them, they may disappear forever.",
+        "They are facing serious problems in the wild.",
+        "Everyone should take action to save them."
+      ],
+      "writing_topic": "Protecting wild animals（现状→原因→呼吁，用上 It is important to...）",
+      "exam_focus": [
+        "It is + adj + for/of sb 的选择：形容词形容人用 of",
+        "stop/keep/prevent ... from doing 的搭配区别"
+      ],
+      "tips": [
+        {"id": "8a-u5-01", "slot": "any", "tag": "语法", "text": "It is + adj + for sb to do：形容词说事情（important/difficult）；of sb：形容词说人品（kind/clever）。"},
+        {"id": "8a-u5-02", "slot": "any", "tag": "易错", "text": "enjoy 后接 doing 不接 to do：He enjoys swimming ✓ enjoys to swim ✗"},
+        {"id": "8a-u5-03", "slot": "any", "tag": "语法", "text": "remember/forget to do = 忘记去做（还没做）；remember/forget doing = 记得做过（已做）。"},
+        {"id": "8a-u5-04", "slot": "morning", "tag": "词汇", "text": "早读动物词 + 保护词各5个：panda, whale, wolf...；protect, danger, hunt..."},
+        {"id": "8a-u5-05", "slot": "any", "tag": "词汇", "text": "weigh 是动词『重达』，weight 是名词。It weighs 100 kilos. / its weight。"},
+        {"id": "8a-u5-06", "slot": "evening", "tag": "自测", "text": "睡前用 to do 造3句：want to / decide to / in order to 各一句。"},
+        {"id": "8a-u5-07", "slot": "any", "tag": "句型", "text": "目的状语两种写法：To save time, ... = In order to save time, ...（放句首时 in order to 更正式）。"},
+        {"id": "8a-u5-08", "slot": "any", "tag": "写作", "text": "动物保护作文：现状（in danger）→原因（hunt/lose homes）→措施（take action to protect）→呼吁。"},
+        {"id": "8a-u5-09", "slot": "evening", "tag": "方法", "text": "睡前把今天课文里所有 to do 短语圈出来，想想每个不定式充当什么成分。"},
+        {"id": "8a-u5-10", "slot": "morning", "tag": "语法", "text": "manage to do = 设法做成；try to do = 努力做（不一定成功）。"}
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Seasons",
+      "topic_cn": "四季与天气描写",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "foggy", "cn": "有雾的"},
+        {"en": "snowy", "cn": "下雪多的"},
+        {"en": "rainy", "cn": "多雨的"},
+        {"en": "pleasant", "cn": "令人愉快的"},
+        {"en": "shower", "cn": "阵雨"},
+        {"en": "temperature", "cn": "温度"},
+        {"en": "degree", "cn": "度数"},
+        {"en": "sunshine", "cn": "阳光"},
+        {"en": "snowstorm", "cn": "暴风雪"},
+        {"en": "frozen", "cn": "结冰的"},
+        {"en": "harvest", "cn": "收割；n. 收获"},
+        {"en": "crop", "cn": "庄稼"},
+        {"en": "memory", "cn": "回忆"}
+      ],
+      "key_phrases": [
+        {"en": "all year round", "cn": "一年到头"},
+        {"en": "be covered with snow", "cn": "被雪覆盖"},
+        {"en": "turn yellow", "cn": "变黄（颜色变化）"},
+        {"en": "make a snowman", "cn": "堆雪人"},
+        {"en": "fly kites", "cn": "放风筝"},
+        {"en": "have a memory of ...", "cn": "有……的回忆"},
+        {"en": "divide ... into ...", "cn": "把……分成……"}
+      ],
+      "grammar": {
+        "name": "动词及基本句型（I）：行为动词与连系动词（S+V / S+V+O / S+V+P）",
+        "key_points": [
+          "行为动词分及物/不及物：不及物动词意义完整，不接宾语（The sun rises.）；及物动词必须接宾语（S+V+O：We study English.）",
+          "不及物动词接宾语要加介词：arrive in Beijing（不能说 arrive Beijing）",
+          "连系动词后接表语，构成主系表 S+V+P：be 类；变化类 become/get/turn/grow；感官类 look/sound/smell/taste/feel；保持类 keep/stay/remain",
+          "表语用名词、形容词或介词短语，不能用副词：He looks happy ✓（不是 happily）",
+          "同形词要辨析：She looks tired.（连系动词，看起来）vs She looks at the picture.（实义动词，看）"
+        ],
+        "examples": [
+          "The sky is blue. / The leaves turn yellow.（S+V+P）",
+          "Kitty will watch a film this Sunday.（S+V+O）",
+          "Dinner smells good.（S+V+P）"
+        ]
+      },
+      "sentence_patterns": [
+        "It is sunny and warm in spring.",
+        "The leaves turn yellow and red in autumn.",
+        "Which season do you like best? Why?"
+      ],
+      "writing_topic": "My favourite season（天气、景色、活动、感受，用上比较级）",
+      "exam_focus": [
+        "天气名词→形容词：fog→foggy, snow→snowy, sun→sunny（双写 n）",
+        "句子结构判断：The wind is blowing hard. 属于 S+V（blow 不及物）——期末句型判断高频",
+        "系动词后接形容词不接副词：He looks happily ✗ → He looks happy ✓"
+      ],
+      "tips": [
+        {"id": "8a-u6-01", "slot": "any", "tag": "词汇", "text": "天气形容词规律：名词+双y：sun→sunny, fog→foggy；snow→snowy 直接+y。"},
+        {"id": "8a-u6-02", "slot": "any", "tag": "语法", "text": "turn/get/become 后接形容词：The weather gets colder. 不是 more cold。"},
+        {"id": "8a-u6-03", "slot": "morning", "tag": "口语", "text": "早读用三句话播报今天天气：It is ... The temperature is ... Don't forget your ..."},
+        {"id": "8a-u6-04", "slot": "any", "tag": "句型", "text": "be covered with：The ground is covered with snow. 不是 covers。"},
+        {"id": "8a-u6-05", "slot": "any", "tag": "易错", "text": "smell/sound/look 是系动词，后面接形容词：The flowers smell sweet. 不是 sweetly。"},
+        {"id": "8a-u6-06", "slot": "evening", "tag": "自测", "text": "睡前默写四季名 + 每季1个形容词 + 1个活动短语。"},
+        {"id": "8a-u6-07", "slot": "any", "tag": "写作", "text": "季节作文五感法：看（leaves turn red）、听（wind blows）、闻（flowers smell sweet）、做（fly kites）、感受（I feel relaxed）。"},
+        {"id": "8a-u6-08", "slot": "any", "tag": "语法", "text": "判断句型三步：动词后没宾语→S+V；接了宾语→S+V+O；连系动词+形容词/名词→S+V+P。"},
+        {"id": "8a-u6-09", "slot": "evening", "tag": "方法", "text": "睡前朗读本单元诗歌体课文一遍，注意节奏和押韵。"},
+        {"id": "8a-u6-10", "slot": "morning", "tag": "词汇", "text": "temperature 搭配：The temperature stays around 10 degrees. 度数用 degree。"}
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "The natural world",
+      "topic_cn": "自然界与环境保护",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "climate", "cn": "气候"},
+        {"en": "ocean", "cn": "海洋"},
+        {"en": "oxygen", "cn": "氧气"},
+        {"en": "provide", "cn": "提供"},
+        {"en": "plastic", "cn": "塑料"},
+        {"en": "waste", "cn": "垃圾；v. 浪费"},
+        {"en": "pollute", "cn": "污染（名词 pollution）"},
+        {"en": "environment", "cn": "环境"},
+        {"en": "natural", "cn": "自然的（名词 nature）"},
+        {"en": "harmful", "cn": "有害的"},
+        {"en": "protect", "cn": "保护"},
+        {"en": "prevent", "cn": "阻止"}
+      ],
+      "key_phrases": [
+        {"en": "provide sb with sth / provide sth for sb", "cn": "给某人提供某物"},
+        {"en": "climate change", "cn": "气候变化"},
+        {"en": "be harmful to", "cn": "对……有害"},
+        {"en": "lead to", "cn": "导致"},
+        {"en": "prevent/stop sb (from) doing sth", "cn": "阻止某人做某事"},
+        {"en": "play a part in doing sth", "cn": "在……中发挥作用"},
+        {"en": "die out", "cn": "灭绝"},
+        {"en": "take action", "cn": "采取行动"}
+      ],
+      "grammar": {
+        "name": "动词及基本句型（II）：双宾语（S+V+IO+DO）与宾语补足语（S+V+DO+OC）",
+        "key_points": [
+          "双宾语：give/show/tell/teach/send sb sth = give/show/... sth to sb；buy/make/cook/get sb sth = ... sth for sb",
+          "The sun gives us light and heat. = The sun gives light and heat to us.",
+          "宾语补足语：call/name sb sth（We call the ocean the 'heart' of the earth.）；keep + 宾语 + adj；ask/tell sb (not) to do",
+          "if/unless 条件状语从句在单元语篇中高频出现（If we protect nature, we protect ourselves.），中考考『主将从现』"
+        ],
+        "examples": [
+          "If we protect nature, we protect ourselves.",
+          "Plastic waste is harmful to ocean animals.",
+          "Pollution leads to serious health problems."
+        ]
+      },
+      "sentence_patterns": [
+        "The ocean provides us with food and oxygen.",
+        "Everyone can play a part in saving the natural world.",
+        "It's our duty to protect the environment."
+      ],
+      "writing_topic": "How to protect the natural world（问题→措施，用 if 句式串联）",
+      "exam_focus": [
+        "双宾语介词：give/show sth to sb，但 buy/make sth for sb——单选高频",
+        "宾补：We call him 'Uncle Wang'. / keep the door open",
+        "if 条件句时态：主将从现，从句绝不用 will",
+        "provide sb with sth / provide sth for sb 的介词搭配"
+      ],
+      "tips": [
+        {"id": "8a-u7-01", "slot": "any", "tag": "语法", "text": "主将从现！If it rains tomorrow（不是 will rain），we will cancel the trip。"},
+        {"id": "8a-u7-02", "slot": "any", "tag": "语法", "text": "unless = if ... not：Unless we act now, ... = If we don't act now, ..."},
+        {"id": "8a-u7-03", "slot": "any", "tag": "词汇", "text": "provide 双介词：provide us with food = provide food for us。"},
+        {"id": "8a-u7-04", "slot": "morning", "tag": "口语", "text": "早读造3个 if 句：If I ..., I will ... 每句主句必须用 will。"},
+        {"id": "8a-u7-05", "slot": "any", "tag": "易错", "text": "be harmful to 中介词用 to：Plastic is harmful to sea animals。"},
+        {"id": "8a-u7-06", "slot": "any", "tag": "句型", "text": "give sb sth = give sth to sb；但 make/buy 用 for：buy sth for sb。"},
+        {"id": "8a-u7-07", "slot": "evening", "tag": "自测", "text": "睡前判断：If he will come... 对吗？——错，改成 If he comes。"},
+        {"id": "8a-u7-08", "slot": "any", "tag": "写作", "text": "环保作文用 if 串联措施：If we plant more trees, the air will be cleaner. If we use less plastic, ..."},
+        {"id": "8a-u7-09", "slot": "evening", "tag": "方法", "text": "睡前检查今天有没有把 if 从句写成将来时——这是全单元第一大坑。"},
+        {"id": "8a-u7-10", "slot": "morning", "tag": "词汇", "text": "词族记忆：pollute→pollution→polluted；protect→protection。"},
+        {"id": "8a-u7-11", "slot": "any", "tag": "句型", "text": "双宾语两句型：give me some food = give some food to me；buy me flowers = buy flowers for me。"},
+        {"id": "8a-u7-12", "slot": "any", "tag": "句型", "text": "宾补结构：We call the ocean the 'heart' of the earth. call sb sth 称某人是……。"}
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Safe and sound",
+      "topic_cn": "自然灾害与安全自护",
+      "estimated_weeks": 2,
+      "core_vocab": [
+        {"en": "earthquake", "cn": "地震"},
+        {"en": "flood", "cn": "洪水"},
+        {"en": "storm", "cn": "风暴"},
+        {"en": "thunder", "cn": "雷（声）"},
+        {"en": "lightning", "cn": "闪电"},
+        {"en": "slight", "cn": "轻微的"},
+        {"en": "shake", "cn": "摇动；n. 摇动"},
+        {"en": "silent", "cn": "寂静的（名词 silence）"},
+        {"en": "nervous", "cn": "紧张的"},
+        {"en": "trapped", "cn": "被困的"},
+        {"en": "alive", "cn": "活着的"},
+        {"en": "safe", "cn": "安全的（比较级 safer）"}
+      ],
+      "key_phrases": [
+        {"en": "keep calm", "cn": "保持冷静"},
+        {"en": "calm down", "cn": "平静下来"},
+        {"en": "in fear", "cn": "惊恐地"},
+        {"en": "run in all directions", "cn": "四处逃散"},
+        {"en": "stay/keep safe", "cn": "保持安全"},
+        {"en": "as ... as possible", "cn": "尽可能……"},
+        {"en": "at first", "cn": "起初"},
+        {"en": "hear about/of", "cn": "听说"}
+      ],
+      "grammar": {
+        "name": "过去进行时（was/were + doing）；when/while/as",
+        "key_points": [
+          "结构：was/were + v-ing，表示过去某一时刻正在进行的动作",
+          "否定：was/were not + doing；疑问：Was/Were + 主语 + doing?",
+          "常见时间状语：at 8:00 p.m. yesterday, at that time, from 7 to 8 last night",
+          "when + 短暂动作（一般过去时）：The earthquake started when we were having class.",
+          "while + 持续动作（常接进行时）：I was reading while he was watching TV.",
+          "as = 当……时，可与 when 换用"
+        ],
+        "examples": [
+          "Mr. Smith was watching TV at 8:00 p.m. last night.",
+          "The ground started to shake while people were running.",
+          "When the earthquake hit, he was doing the dishes."
+        ]
+      },
+      "sentence_patterns": [
+        "I was doing my homework when the lights went out.",
+        "People were running in all directions in fear.",
+        "Keep calm and stay away from the windows."
+      ],
+      "writing_topic": "A natural disaster I experienced/heard about（过去进行时描述当时场景+安全建议）",
+      "exam_focus": [
+        "when（短暂动作用过去时）与 while（持续动作用进行时）的选择",
+        "过去进行时与一般过去时的区分：正在做（进行）vs 做了（过去）"
+      ],
+      "tips": [
+        {"id": "8a-u8-01", "slot": "any", "tag": "语法", "text": "过去进行时 = was/were + doing：I was doing my homework at 8 last night。"},
+        {"id": "8a-u8-02", "slot": "any", "tag": "语法", "text": "when 接短暂动作（一般过去时），while 接持续动作（进行时）：When he came in, I was reading."},
+        {"id": "8a-u8-03", "slot": "any", "tag": "易错", "text": "过去进行时不能忘 be 动词：I doing ✗ → I was doing ✓"},
+        {"id": "8a-u8-04", "slot": "morning", "tag": "口语", "text": "早读自述：昨晚8点家里每个人在干什么，全部用过去进行时说一遍。"},
+        {"id": "8a-u8-05", "slot": "any", "tag": "句型", "text": "while 也可表对比『然而』：I like maths while my brother likes art。"},
+        {"id": "8a-u8-06", "slot": "any", "tag": "词汇", "text": "词形：silence n.→silent adj.；safety n.→safe adj.；suddenly adv.→sudden adj."},
+        {"id": "8a-u8-07", "slot": "evening", "tag": "自测", "text": "睡前把 yesterday evening 6点到9点的时间轴用3句过去进行时说出来。"},
+        {"id": "8a-u8-08", "slot": "any", "tag": "写作", "text": "灾害作文结构：当时我正在……（过去进行时）→突然……（一般过去时）→自救建议（祈使句）。正好串起本册三大语法！"},
+        {"id": "8a-u8-09", "slot": "evening", "tag": "方法", "text": "期末临近：睡前翻一遍本学期错题本，只看红笔订正的部分。"},
+        {"id": "8a-u8-10", "slot": "morning", "tag": "词汇", "text": "as ... as possible：as quickly as possible 尽快；as soon as possible 尽早。"}
+      ]
+    }
+  ]
+}

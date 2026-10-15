@@ -1,0 +1,207 @@
+{
+  "book": {
+    "subject": "english",
+    "publisher": "译林出版社",
+    "edition": "抖音博主视频 + 本地 qwen 归纳 + 人工审核",
+    "grade": 8,
+    "grade_cn": "八年级（初二）",
+    "term": "技能专栏",
+    "term_code": "EXAM",
+    "verified_at": "2026-09-24",
+    "note": "内容来源：抖音英语博主（sec_uid MS4wLjABAAAAMSzy8NPRm_4EAqmllEll8uAWCqpiY6lWb-7ZdqVtzoc）视频转写 + qwen2.5:7b 归纳 + 人工筛选改写。36 条原始产出中 14 条入选，22 条因瞎编/鸡汤/无实例淘汰。另含第5单元『英语写作指导』（来源：老师《写作指导》课件，2026-10-14 归纳）。看板以 25% 概率在英语时段展示本专栏。"
+  },
+  "units": [
+    {
+      "unit": 1,
+      "title": "阅读与完形",
+      "topic_cn": "七选五与完形技巧（来源：七选五技巧视频）",
+      "key_points": [
+        "七选五做题策略",
+        "关键词复现"
+      ],
+      "tips": [
+        {
+          "id": "exam-u1-01",
+          "slot": "any",
+          "tag": "方法",
+          "text": "七选五先做小标题题，利用其特点缩小答题范围，再攻难题。"
+        },
+        {
+          "id": "exam-u1-02",
+          "slot": "any",
+          "tag": "方法",
+          "text": "小标题通常由动词原形开头——看到原形选项优先对号入座。"
+        },
+        {
+          "id": "exam-u1-03",
+          "slot": "any",
+          "tag": "方法",
+          "text": "关键词复现是突破口：空前句出现的名词，常在后文答案中重现。"
+        },
+        {
+          "id": "exam-u1-04",
+          "slot": "any",
+          "tag": "方法",
+          "text": "利用前后句信息互补（对象、动作、逻辑）确定选项，别只看单句。"
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "写作句式",
+      "topic_cn": "作文万能句与高频词（来源：高分句式仿写视频）",
+      "key_points": [
+        "万能开头句",
+        "作文高频词"
+      ],
+      "tips": [
+        {
+          "id": "exam-u2-01",
+          "slot": "any",
+          "tag": "句型",
+          "text": "… has become a hot topic.（……成为热门话题）——作文万能开头句。"
+        },
+        {
+          "id": "exam-u2-02",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "nowadays 如今：作文高频开头词，注意拼写，别写成 no days。"
+        },
+        {
+          "id": "exam-u2-03",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "overuse 过度使用：Don't overuse the same word in your essay."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "八大时态速记",
+      "topic_cn": "时态一句话总结（来源：英语8大时态视频）",
+      "key_points": [
+        "五种基本时态一句话记法"
+      ],
+      "tips": [
+        {
+          "id": "exam-u3-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "表达日常习惯用一般现在时：I get up at six every day."
+        },
+        {
+          "id": "exam-u3-02",
+          "slot": "any",
+          "tag": "语法",
+          "text": "现在进行时表示此刻正在做：am/is/are + doing。"
+        },
+        {
+          "id": "exam-u3-03",
+          "slot": "any",
+          "tag": "语法",
+          "text": "一般将来时：will + 动词原形，表示将要发生。"
+        },
+        {
+          "id": "exam-u3-04",
+          "slot": "any",
+          "tag": "语法",
+          "text": "过去进行时：was/were + doing，过去某时正在进行的动作。"
+        },
+        {
+          "id": "exam-u3-05",
+          "slot": "any",
+          "tag": "语法",
+          "text": "现在完成时：过去的动作影响现在，have/has + 过去分词。"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "no 与 not",
+      "topic_cn": "no/not 搭配辨析（来源：用no还是not视频）",
+      "key_points": [
+        "no+名词，not+其余"
+      ],
+      "tips": [
+        {
+          "id": "exam-u4-01",
+          "slot": "any",
+          "tag": "易错",
+          "text": "no + 名词，not + 其余：no water = not any water。"
+        },
+        {
+          "id": "exam-u4-02",
+          "slot": "any",
+          "tag": "易错",
+          "text": "There be 句型里名词前用 no：There is no milk in the fridge."
+        },
+        {
+          "id": "exam-u4-03",
+          "slot": "any",
+          "tag": "方法",
+          "text": "口诀：no 接名词，not 接其余——填空先看后面是不是名词。"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "英语写作指导",
+      "topic_cn": "老师写作指导课件归纳（两页版：方法论 + 加分句型）",
+      "key_points": [
+        "准确性/复杂度/流畅度",
+        "总-分与分-总结构",
+        "书信与加分句型"
+      ],
+      "tips": [],
+      "pages": [
+        {
+          "title": "写作方法论",
+          "items": [
+            {
+              "cn": "写作是有目的的交际，不是聊天：写给谁看？语气要正式、有层次。"
+            },
+            {
+              "cn": "读写结合：阅读是存入，写作是取出。只背不写、只写不背都不行。"
+            },
+            {
+              "cn": "好作文三标准：准确（句子无错）、复杂（复合句+词汇不重复）、流畅（限时写够）。"
+            },
+            {
+              "cn": "卷面是第一印象：字迹工整，大小写、标点要规范。"
+            },
+            {
+              "cn": "结构公式：总-分（观点+支撑）或分-总（例子+观点），段落要有逻辑推进。"
+            },
+            {
+              "cn": "下笔先审题：圈出人称、时态、要点——文不对题最冤枉。"
+            },
+            {
+              "cn": "记事要夹叙夹议：写完事情加一句感想，文章立刻有深度。"
+            }
+          ]
+        },
+        {
+          "title": "加分句型与范文套路",
+          "items": [
+            {
+              "cn": "加分复合句（越细心错误越少）：",
+              "en": "The more carefully you do your tasks, the fewer mistakes you will make."
+            },
+            {
+              "cn": "谚语引入：",
+              "en": "As an old saying goes, \"Reviewing old lessons helps to learn new ones.\""
+            },
+            {
+              "cn": "串联两个好处：",
+              "en": "It can not only help me balance my study and rest but also improve my learning efficiency."
+            },
+            {
+              "cn": "书信开头与结尾：",
+              "en": "I'm glad to receive your letter. ... Hope my ideas can help with your project. Yours, …"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
