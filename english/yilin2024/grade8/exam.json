@@ -8,7 +8,7 @@
     "term": "技能专栏",
     "term_code": "EXAM",
     "verified_at": "2026-09-24",
-    "note": "内容来源：抖音英语博主（sec_uid MS4wLjABAAAAMSzy8NPRm_4EAqmllEll8uAWCqpiY6lWb-7ZdqVtzoc）视频转写 + qwen2.5:7b 归纳 + 人工筛选改写。36 条原始产出中 14 条入选，22 条因瞎编/鸡汤/无实例淘汰。另含第5单元『英语写作指导』（来源：老师《写作指导》课件，2026-10-14 归纳）。看板以 25% 概率在英语时段展示本专栏。"
+    "note": "内容来源：抖音英语博主（sec_uid MS4wLjABAAAAMSzy8NPRm_4EAqmllEll8uAWCqpiY6lWb-7ZdqVtzoc）视频转写 + qwen2.5:7b 归纳 + 人工筛选改写。36 条原始产出中 14 条入选，22 条因瞎编/鸡汤/无实例淘汰。另含第5单元『英语写作指导』（老师课件归纳）与第6单元『期中考点梳理 U1-U4』（21世纪教育网/学科网期中资料归纳，2026-10-18）。看板以 25% 概率在英语时段展示本专栏。"
   },
   "units": [
     {
@@ -200,6 +200,114 @@
               "en": "I'm glad to receive your letter. ... Hope my ideas can help with your project. Yours, …"
             }
           ]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "期中考点梳理（U1-U4）",
+      "topic_cn": "译林八上期中高频考点：词汇辨析、句型、冠词序数词、比较级（来源：21世纪教育网/学科网期中复习资料归纳）",
+      "key_points": [
+        "U1-U4 词汇句型",
+        "冠词与序数词",
+        "比较级规则与标志词"
+      ],
+      "tips": [
+        {
+          "id": "exam-u6-01",
+          "slot": "any",
+          "tag": "易错",
+          "text": "borrow 借入 / lend 借出 / keep 表借多久：I borrowed a book and kept it for two weeks."
+        },
+        {
+          "id": "exam-u6-02",
+          "slot": "any",
+          "tag": "易错",
+          "text": "spend/cost/pay：人 spend 时间钱 on sth/(in) doing；物 cost；人 pay…for。别混主语。"
+        },
+        {
+          "id": "exam-u6-03",
+          "slot": "any",
+          "tag": "句型",
+          "text": "数字+more+名词 = another+数字+名词：Give me two more minutes. = Give me another two minutes."
+        },
+        {
+          "id": "exam-u6-04",
+          "slot": "any",
+          "tag": "易错",
+          "text": "keep a secret from sb. 对某人保密；keep a secret for sb. 替某人保密——介词一字之差。"
+        },
+        {
+          "id": "exam-u6-05",
+          "slot": "any",
+          "tag": "句型",
+          "text": "tell 三用法：tell sb. about sth. / tell sb. (not) to do / 搭配 tell stories, lies, jokes。"
+        },
+        {
+          "id": "exam-u6-06",
+          "slot": "any",
+          "tag": "句型",
+          "text": "have problems (in) doing sth. 做某事有困难；have problems with sth.——写作高频替换 have trouble。"
+        },
+        {
+          "id": "exam-u6-07",
+          "slot": "any",
+          "tag": "概念",
+          "text": "trust = believe in（信任人品）；believe（相信某事为真）。I trust you. = I believe in you."
+        },
+        {
+          "id": "exam-u6-08",
+          "slot": "any",
+          "tag": "句型",
+          "text": "万能句型：It's + adj. + (for sb.) to do sth. It's important for us to learn English well."
+        },
+        {
+          "id": "exam-u6-09",
+          "slot": "any",
+          "tag": "易错",
+          "text": "a + 序数词 = 再一个（They want a third child 再要一个）；the + 序数词 = 单指第几个。"
+        },
+        {
+          "id": "exam-u6-10",
+          "slot": "any",
+          "tag": "题型",
+          "text": "come + 序数词不加冠词，意为名列第几：He came first in the English exam."
+        },
+        {
+          "id": "exam-u6-11",
+          "slot": "any",
+          "tag": "易错",
+          "text": "a/an 看音素不看字母：a useful book / a university，但 an hour / an honest boy。"
+        },
+        {
+          "id": "exam-u6-12",
+          "slot": "any",
+          "tag": "口诀",
+          "text": "比较级变化口诀：直接加er；去e加r；辅音+y改i；重读闭音节双写——苗条瘦大热胖忧（slim/thin/big/hot/fat/sad）。"
+        },
+        {
+          "id": "exam-u6-13",
+          "slot": "any",
+          "tag": "语法",
+          "text": "比较级标志词：much / even / a little + 比较级；very 不能修饰比较级。"
+        },
+        {
+          "id": "exam-u6-14",
+          "slot": "any",
+          "tag": "句型",
+          "text": "make 两种用法：make sb. do sth.（省 to）The news made us excited；make sb. + adj.。"
+        },
+        {
+          "id": "exam-u6-15",
+          "slot": "any",
+          "tag": "句型",
+          "text": "something to drink / eat：不定式作后置定语。Can I have something to drink?"
+        },
+        {
+          "id": "exam-u6-16",
+          "slot": "any",
+          "tag": "方法",
+          "text": "期中题型：听力/单选/完形/阅读/单词拼写/翻译/书面表达——翻译题先搭句子骨架再润色。"
         }
       ]
     }
