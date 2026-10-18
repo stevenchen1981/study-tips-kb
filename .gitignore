@@ -3,3 +3,4 @@ en_media/
 *.log
 __pycache__/
 .DS_Store
+demo/

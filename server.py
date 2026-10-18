@@ -32,14 +32,31 @@ DEFAULT_PROGRESS = {
 }
 
 
+def _book_paths() -> list:
+    return sorted(ROOT.glob("*/*/*/8[ab].json")) + sorted(ROOT.glob("*/*/*/exam.json"))
+
+
+BOOKS: dict = {}
+_BOOKS_MTIMES: dict = {}
+
+
 def load_books() -> dict:
     """返回 {subject: {term_code: {"units": [...], "publisher": str}}}。
 
     8a/8b.json 为按学期进度的教材册；exam.json（如有）为技能专栏，
     展示时以一定概率插入，不受学期进度控制。
+    每次调用先比对文件 mtime，资料文件有改动才重新加载——
+    **改完 JSON 保存即生效，无需重启服务**。
     """
+    global BOOKS, _BOOKS_MTIMES
+    paths = _book_paths()
+    try:
+        mtimes = {str(p): p.stat().st_mtime for p in paths}
+    except OSError:
+        mtimes = None
+    if mtimes is not None and mtimes == _BOOKS_MTIMES and BOOKS:
+        return BOOKS
     books: dict = {}
-    paths = sorted(ROOT.glob("*/*/*/8[ab].json")) + sorted(ROOT.glob("*/*/*/exam.json"))
     for path in paths:
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
@@ -53,10 +70,10 @@ def load_books() -> dict:
             "units": data.get("units", []),
             "publisher": book.get("publisher", ""),
         }
-    return books
-
-
-BOOKS = load_books()
+    BOOKS = books
+    if mtimes is not None:
+        _BOOKS_MTIMES = mtimes
+    return BOOKS
 
 
 def load_progress() -> dict:
@@ -90,15 +107,16 @@ def pick_tip(bucket: int | None = None) -> dict:
     """
     if bucket is None:
         bucket = int(time.time() // REFRESH_SECONDS)
+    books = load_books()
     progress = load_progress()
     subject_confs = {
-        s: conf for s, conf in progress.get("subjects", {}).items() if s in BOOKS
+        s: conf for s, conf in progress.get("subjects", {}).items() if s in books
     }
     if not subject_confs:
-        subject_confs = {s: {} for s in BOOKS}
+        subject_confs = {s: {} for s in books}
     subject = random.Random(f"{bucket}|subject").choice(list(subject_confs))
     conf = subject_confs[subject]
-    terms = BOOKS[subject]
+    terms = books[subject]
     term = conf.get("term") or next(iter(terms))
     if term not in terms:
         term = next(iter(terms))
