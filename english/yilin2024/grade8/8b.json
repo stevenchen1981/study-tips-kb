@@ -17,29 +17,92 @@
       "topic_cn": "过去与现在：家乡变迁与现在完成时入门",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "change", "cn": "变化；v. 改变"},
-        {"en": "transport", "cn": "交通，运输"},
-        {"en": "pollution", "cn": "污染（动词 pollute）"},
-        {"en": "improve", "cn": "改善，改进"},
-        {"en": "interview", "cn": "采访；n. 面试"},
-        {"en": "married", "cn": "已婚的"},
-        {"en": "impossible", "cn": "不可能的"},
-        {"en": "northern", "cn": "北方的"},
-        {"en": "flat", "cn": "公寓"},
-        {"en": "since", "cn": "自从"},
-        {"en": "ever", "cn": "曾经"},
-        {"en": "yet", "cn": "还，已经（否定/疑问句）"}
+        {
+          "en": "change",
+          "cn": "变化；v. 改变"
+        },
+        {
+          "en": "transport",
+          "cn": "交通，运输"
+        },
+        {
+          "en": "pollution",
+          "cn": "污染（动词 pollute）"
+        },
+        {
+          "en": "improve",
+          "cn": "改善，改进"
+        },
+        {
+          "en": "interview",
+          "cn": "采访；n. 面试"
+        },
+        {
+          "en": "married",
+          "cn": "已婚的"
+        },
+        {
+          "en": "impossible",
+          "cn": "不可能的"
+        },
+        {
+          "en": "northern",
+          "cn": "北方的"
+        },
+        {
+          "en": "flat",
+          "cn": "公寓"
+        },
+        {
+          "en": "since",
+          "cn": "自从"
+        },
+        {
+          "en": "ever",
+          "cn": "曾经"
+        },
+        {
+          "en": "yet",
+          "cn": "还，已经（否定/疑问句）"
+        }
       ],
       "key_phrases": [
-        {"en": "used to do sth", "cn": "过去常常做某事"},
-        {"en": "over the years", "cn": "多年来"},
-        {"en": "in the past / at present", "cn": "在过去/现在"},
-        {"en": "not ... any more", "cn": "不再……"},
-        {"en": "move house / move to ...", "cn": "搬家/搬到……"},
-        {"en": "get married (to sb)", "cn": "（与某人）结婚"},
-        {"en": "turn ... into ...", "cn": "把……变成……"},
-        {"en": "from time to time", "cn": "不时，偶尔"},
-        {"en": "in some ways", "cn": "在某些方面"}
+        {
+          "en": "used to do sth",
+          "cn": "过去常常做某事"
+        },
+        {
+          "en": "over the years",
+          "cn": "多年来"
+        },
+        {
+          "en": "in the past / at present",
+          "cn": "在过去/现在"
+        },
+        {
+          "en": "not ... any more",
+          "cn": "不再……"
+        },
+        {
+          "en": "move house / move to ...",
+          "cn": "搬家/搬到……"
+        },
+        {
+          "en": "get married (to sb)",
+          "cn": "（与某人）结婚"
+        },
+        {
+          "en": "turn ... into ...",
+          "cn": "把……变成……"
+        },
+        {
+          "en": "from time to time",
+          "cn": "不时，偶尔"
+        },
+        {
+          "en": "in some ways",
+          "cn": "在某些方面"
+        }
       ],
       "grammar": {
         "name": "现在完成时（一）：基本用法",
@@ -67,19 +130,96 @@
         "already（肯定句）/ yet（否定和疑问句）的位置与选用"
       ],
       "tips": [
-        {"id": "8b-u1-01", "slot": "any", "tag": "语法", "text": "现在完成时 = have/has + 过去分词。这学期第一主旋律，先过不规则动词表。"},
-        {"id": "8b-u1-02", "slot": "any", "tag": "易错", "text": "already 用于肯定句，yet 用于疑问/否定句：I have already finished. / I haven't finished yet."},
-        {"id": "8b-u1-03", "slot": "any", "tag": "语法", "text": "used to do：He used to play football after school. 否定：didn't use to do。"},
-        {"id": "8b-u1-04", "slot": "morning", "tag": "词汇", "text": "早读背10个不规则动词三态：go-went-gone 开头，每天加10个。"},
-        {"id": "8b-u1-05", "slot": "any", "tag": "句型", "text": "There used to be ... 过去有……：There used to be a small shop here."},
-        {"id": "8b-u1-06", "slot": "any", "tag": "易错", "text": "not ... any more = no longer：He doesn't live here any more. = He no longer lives here."},
-        {"id": "8b-u1-07", "slot": "evening", "tag": "自测", "text": "睡前自测：be/go/see/do/eat/write/speak/buy/come/give 的过去分词。"},
-        {"id": "8b-u1-08", "slot": "any", "tag": "写作", "text": "家乡变化作文公式：In the past, ... Now, ... has changed a lot. 至少写3组对比。"},
-        {"id": "8b-u1-09", "slot": "evening", "tag": "方法", "text": "睡前把 have/has done 读出声5遍，形成『have+过去分词』的肌肉记忆。"},
-        {"id": "8b-u1-10", "slot": "morning", "tag": "语法", "text": "since + 过去时间点：since 2005 / since three weeks ago / since then。"},
-        {"id": "8b-u1-11", "slot": "any", "tag": "口诀", "text": "完成时口诀：主语加上 have/has，过去分词跟在后；表影响、表持续，标志词来辨清楚。"},
-        {"id": "8b-u1-12", "slot": "any", "tag": "易错", "text": "瞬间动词不能配 for/since：buy→have had，borrow→keep，come→be（here），join→be in。"},
-        {"id": "8b-u1-13", "slot": "any", "tag": "语法", "text": "还有这些标志词：so far、up to now、in the past few years、recently——都配现在完成时。"}
+        {
+          "id": "8b-u1-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "现在完成时 = have/has + 过去分词。这学期第一主旋律，先过不规则动词表。"
+        },
+        {
+          "id": "8b-u1-02",
+          "slot": "any",
+          "tag": "易错",
+          "text": "already 用于肯定句，yet 用于疑问/否定句：I have already finished. / I haven't finished yet."
+        },
+        {
+          "id": "8b-u1-03",
+          "slot": "any",
+          "tag": "语法",
+          "text": "used to do：He used to play football after school. 否定：didn't use to do。"
+        },
+        {
+          "id": "8b-u1-04",
+          "slot": "morning",
+          "tag": "词汇",
+          "text": "早读背10个不规则动词三态：go-went-gone 开头，每天加10个。"
+        },
+        {
+          "id": "8b-u1-05",
+          "slot": "any",
+          "tag": "句型",
+          "text": "There used to be ... 过去有……：There used to be a small shop here."
+        },
+        {
+          "id": "8b-u1-06",
+          "slot": "any",
+          "tag": "易错",
+          "text": "not ... any more = no longer：He doesn't live here any more. = He no longer lives here."
+        },
+        {
+          "id": "8b-u1-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "睡前自测：be/go/see/do/eat/write/speak/buy/come/give 的过去分词。"
+        },
+        {
+          "id": "8b-u1-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "家乡变化作文公式：In the past, ... Now, ... has changed a lot. 至少写3组对比。"
+        },
+        {
+          "id": "8b-u1-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "睡前把 have/has done 读出声5遍，形成『have+过去分词』的肌肉记忆。"
+        },
+        {
+          "id": "8b-u1-10",
+          "slot": "morning",
+          "tag": "语法",
+          "text": "since + 过去时间点：since 2005 / since three weeks ago / since then。"
+        },
+        {
+          "id": "8b-u1-11",
+          "slot": "any",
+          "tag": "口诀",
+          "text": "完成时口诀：主语加上 have/has，过去分词跟在后；表影响、表持续，标志词来辨清楚。"
+        },
+        {
+          "id": "8b-u1-12",
+          "slot": "any",
+          "tag": "易错",
+          "text": "瞬间动词不能配 for/since：buy→have had，borrow→keep，come→be（here），join→be in。"
+        },
+        {
+          "id": "8b-u1-13",
+          "slot": "any",
+          "tag": "语法",
+          "text": "还有这些标志词：so far、up to now、in the past few years、recently——都配现在完成时。"
+        },
+        {
+          "id": "8b-u1-14",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "变迁词例句：He interviewed locals about the changes — the pollution has improved and streets are cleaner."
+        },
+        {
+          "id": "8b-u1-15",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：My grandparents got married in a northern town and have lived there ever since."
+        }
       ]
     },
     {
@@ -88,26 +228,80 @@
       "topic_cn": "壮美中国：旅行经历与现在完成时深化",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "amazing", "cn": "令人惊奇的"},
-        {"en": "fantastic", "cn": "极好的"},
-        {"en": "attraction", "cn": "景点，吸引人的事物"},
-        {"en": "scenery", "cn": "风景"},
-        {"en": "wonder", "cn": "奇迹；v. 想知道"},
-        {"en": "speed", "cn": "速度"},
-        {"en": "railway", "cn": "铁路"},
-        {"en": "experience", "cn": "经历；v. 体验"},
-        {"en": "southern", "cn": "南方的"},
-        {"en": "magic", "cn": "魔力的，神奇的"},
-        {"en": "view", "cn": "景色，观点"},
-        {"en": "culture", "cn": "文化"}
+        {
+          "en": "amazing",
+          "cn": "令人惊奇的"
+        },
+        {
+          "en": "fantastic",
+          "cn": "极好的"
+        },
+        {
+          "en": "attraction",
+          "cn": "景点，吸引人的事物"
+        },
+        {
+          "en": "scenery",
+          "cn": "风景"
+        },
+        {
+          "en": "wonder",
+          "cn": "奇迹；v. 想知道"
+        },
+        {
+          "en": "speed",
+          "cn": "速度"
+        },
+        {
+          "en": "railway",
+          "cn": "铁路"
+        },
+        {
+          "en": "experience",
+          "cn": "经历；v. 体验"
+        },
+        {
+          "en": "southern",
+          "cn": "南方的"
+        },
+        {
+          "en": "magic",
+          "cn": "魔力的，神奇的"
+        },
+        {
+          "en": "view",
+          "cn": "景色，观点"
+        },
+        {
+          "en": "culture",
+          "cn": "文化"
+        }
       ],
       "key_phrases": [
-        {"en": "have/has been to", "cn": "去过（已回来）"},
-        {"en": "have/has gone to", "cn": "去了（还没回来）"},
-        {"en": "have/has been in", "cn": "一直在（某地待了多久）"},
-        {"en": "places of interest", "cn": "名胜古迹"},
-        {"en": "for + 时间段 / since + 时间点", "cn": "现在完成时搭档"},
-        {"en": "take a high-speed train", "cn": "坐高铁"}
+        {
+          "en": "have/has been to",
+          "cn": "去过（已回来）"
+        },
+        {
+          "en": "have/has gone to",
+          "cn": "去了（还没回来）"
+        },
+        {
+          "en": "have/has been in",
+          "cn": "一直在（某地待了多久）"
+        },
+        {
+          "en": "places of interest",
+          "cn": "名胜古迹"
+        },
+        {
+          "en": "for + 时间段 / since + 时间点",
+          "cn": "现在完成时搭档"
+        },
+        {
+          "en": "take a high-speed train",
+          "cn": "坐高铁"
+        }
       ],
       "grammar": {
         "name": "现在完成时（二）：have been to / have gone to；for 与 since",
@@ -135,16 +329,78 @@
         "非延续动词转换：have bought → have had；have come → have been here"
       ],
       "tips": [
-        {"id": "8b-u2-01", "slot": "any", "tag": "易错", "text": "gone to = 去了没回；been to = 去过已回。He has gone to Beijing 意味着他现在不在。"},
-        {"id": "8b-u2-02", "slot": "any", "tag": "语法", "text": "for 后接时间段（for two days），since 后接时间点（since Monday）。"},
-        {"id": "8b-u2-03", "slot": "any", "tag": "易错", "text": "have bought 不能配 for/since：I have had this bike for two years（不是 have bought）。"},
-        {"id": "8b-u2-04", "slot": "morning", "tag": "口语", "text": "早读说旅行：I have been to ... / I have never been to ... 各说2句。"},
-        {"id": "8b-u2-05", "slot": "any", "tag": "词汇", "text": "词族：amaze→amazing/amazed（人惊讶用 amazed：I am amazed at the view）。"},
-        {"id": "8b-u2-06", "slot": "any", "tag": "句型", "text": "have been to + 次数：I have been there twice. 对次数提问：How many times...?"},
-        {"id": "8b-u2-07", "slot": "evening", "tag": "自测", "text": "睡前判断：①She has gone to Beijing twice. ②She has been to Beijing twice. 哪句对？"},
-        {"id": "8b-u2-08", "slot": "any", "tag": "写作", "text": "旅行作文：去过哪（have been to）→看到什么（scenery/view）→感受（fantastic）→推荐。"},
-        {"id": "8b-u2-09", "slot": "evening", "tag": "方法", "text": "睡前读一段现在完成时课文，圈出所有 have/has，读出节奏感。"},
-        {"id": "8b-u2-10", "slot": "morning", "tag": "语法", "text": "have been in + 地点 + for：I have been in this school for two years（待了多久）。"}
+        {
+          "id": "8b-u2-01",
+          "slot": "any",
+          "tag": "易错",
+          "text": "gone to = 去了没回；been to = 去过已回。He has gone to Beijing 意味着他现在不在。"
+        },
+        {
+          "id": "8b-u2-02",
+          "slot": "any",
+          "tag": "语法",
+          "text": "for 后接时间段（for two days），since 后接时间点（since Monday）。"
+        },
+        {
+          "id": "8b-u2-03",
+          "slot": "any",
+          "tag": "易错",
+          "text": "have bought 不能配 for/since：I have had this bike for two years（不是 have bought）。"
+        },
+        {
+          "id": "8b-u2-04",
+          "slot": "morning",
+          "tag": "口语",
+          "text": "早读说旅行：I have been to ... / I have never been to ... 各说2句。"
+        },
+        {
+          "id": "8b-u2-05",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "词族：amaze→amazing/amazed（人惊讶用 amazed：I am amazed at the view）。"
+        },
+        {
+          "id": "8b-u2-06",
+          "slot": "any",
+          "tag": "句型",
+          "text": "have been to + 次数：I have been there twice. 对次数提问：How many times...?"
+        },
+        {
+          "id": "8b-u2-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "睡前判断：①She has gone to Beijing twice. ②She has been to Beijing twice. 哪句对？"
+        },
+        {
+          "id": "8b-u2-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "旅行作文：去过哪（have been to）→看到什么（scenery/view）→感受（fantastic）→推荐。"
+        },
+        {
+          "id": "8b-u2-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "睡前读一段现在完成时课文，圈出所有 have/has，读出节奏感。"
+        },
+        {
+          "id": "8b-u2-10",
+          "slot": "morning",
+          "tag": "语法",
+          "text": "have been in + 地点 + for：I have been in this school for two years（待了多久）。"
+        },
+        {
+          "id": "8b-u2-11",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "旅行词例句：The scenery in southern China is fantastic — I have been there twice by high-speed railway."
+        },
+        {
+          "id": "8b-u2-12",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：Xi'an is full of history and culture — I wonder which place to visit first."
+        }
       ]
     },
     {
@@ -153,26 +409,80 @@
       "topic_cn": "一键世界：网络生活与两种过去时对比",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "online", "cn": "在线的/地"},
-        {"en": "click", "cn": "点击"},
-        {"en": "website", "cn": "网站"},
-        {"en": "search", "cn": "搜索"},
-        {"en": "screen", "cn": "屏幕"},
-        {"en": "keyboard", "cn": "键盘"},
-        {"en": "download", "cn": "下载"},
-        {"en": "digital", "cn": "数字的"},
-        {"en": "communicate", "cn": "交流"},
-        {"en": "information", "cn": "信息（不可数）"},
-        {"en": "advantage", "cn": "优点"},
-        {"en": "disadvantage", "cn": "缺点"}
+        {
+          "en": "online",
+          "cn": "在线的/地"
+        },
+        {
+          "en": "click",
+          "cn": "点击"
+        },
+        {
+          "en": "website",
+          "cn": "网站"
+        },
+        {
+          "en": "search",
+          "cn": "搜索"
+        },
+        {
+          "en": "screen",
+          "cn": "屏幕"
+        },
+        {
+          "en": "keyboard",
+          "cn": "键盘"
+        },
+        {
+          "en": "download",
+          "cn": "下载"
+        },
+        {
+          "en": "digital",
+          "cn": "数字的"
+        },
+        {
+          "en": "communicate",
+          "cn": "交流"
+        },
+        {
+          "en": "information",
+          "cn": "信息（不可数）"
+        },
+        {
+          "en": "advantage",
+          "cn": "优点"
+        },
+        {
+          "en": "disadvantage",
+          "cn": "缺点"
+        }
       ],
       "key_phrases": [
-        {"en": "search for", "cn": "搜索，查找"},
-        {"en": "click on", "cn": "点击（链接/图标）"},
-        {"en": "at the click of a button", "cn": "一键之下"},
-        {"en": "communicate with sb", "cn": "与某人交流"},
-        {"en": "used to do（对比 did）", "cn": "过去常常（区分于完成时）"},
-        {"en": "be different from", "cn": "与……不同"}
+        {
+          "en": "search for",
+          "cn": "搜索，查找"
+        },
+        {
+          "en": "click on",
+          "cn": "点击（链接/图标）"
+        },
+        {
+          "en": "at the click of a button",
+          "cn": "一键之下"
+        },
+        {
+          "en": "communicate with sb",
+          "cn": "与某人交流"
+        },
+        {
+          "en": "used to do（对比 did）",
+          "cn": "过去常常（区分于完成时）"
+        },
+        {
+          "en": "be different from",
+          "cn": "与……不同"
+        }
       ],
       "grammar": {
         "name": "一般过去时与现在完成时的对比",
@@ -200,16 +510,78 @@
         "『Have you ...?』与『Did you ...?』语境选择"
       ],
       "tips": [
-        {"id": "8b-u3-01", "slot": "any", "tag": "语法", "text": "一句话分清：Did you eat?（问过去那件事）Have you eaten?（问现在饱没饱）。"},
-        {"id": "8b-u3-02", "slot": "any", "tag": "易错", "text": "有 yesterday/ago/last year 就用过去时，别配 have done。"},
-        {"id": "8b-u3-03", "slot": "any", "tag": "词汇", "text": "information 不可数：a piece of information，不可以说 informations。"},
-        {"id": "8b-u3-04", "slot": "morning", "tag": "口语", "text": "早读说网络习惯：I use ... to search for ... / I have just downloaded ..."},
-        {"id": "8b-u3-05", "slot": "any", "tag": "语法", "text": "答句出现具体时间就要用过去时：—Have you seen it? —Yes, I saw it yesterday."},
-        {"id": "8b-u3-06", "slot": "any", "tag": "句型", "text": "search for + 目标：search for information on the Internet。"},
-        {"id": "8b-u3-07", "slot": "evening", "tag": "自测", "text": "睡前做5道时态二选一：did / have done，标出判断依据（时间状语）。"},
-        {"id": "8b-u3-08", "slot": "any", "tag": "写作", "text": "网络利弊作文：2 advantages（search information, communicate）+ 2 disadvantages（too much screen time），结尾给1条建议。"},
-        {"id": "8b-u3-09", "slot": "evening", "tag": "方法", "text": "睡前把今天的两种时态句子各读3句，体会『过去的事』vs『影响现在』。"},
-        {"id": "8b-u3-10", "slot": "morning", "tag": "词汇", "text": "communicate 名词 communication；click on the link 点击链接。"}
+        {
+          "id": "8b-u3-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "一句话分清：Did you eat?（问过去那件事）Have you eaten?（问现在饱没饱）。"
+        },
+        {
+          "id": "8b-u3-02",
+          "slot": "any",
+          "tag": "易错",
+          "text": "有 yesterday/ago/last year 就用过去时，别配 have done。"
+        },
+        {
+          "id": "8b-u3-03",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "information 不可数：a piece of information，不可以说 informations。"
+        },
+        {
+          "id": "8b-u3-04",
+          "slot": "morning",
+          "tag": "口语",
+          "text": "早读说网络习惯：I use ... to search for ... / I have just downloaded ..."
+        },
+        {
+          "id": "8b-u3-05",
+          "slot": "any",
+          "tag": "语法",
+          "text": "答句出现具体时间就要用过去时：—Have you seen it? —Yes, I saw it yesterday."
+        },
+        {
+          "id": "8b-u3-06",
+          "slot": "any",
+          "tag": "句型",
+          "text": "search for + 目标：search for information on the Internet。"
+        },
+        {
+          "id": "8b-u3-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "睡前做5道时态二选一：did / have done，标出判断依据（时间状语）。"
+        },
+        {
+          "id": "8b-u3-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "网络利弊作文：2 advantages（search information, communicate）+ 2 disadvantages（too much screen time），结尾给1条建议。"
+        },
+        {
+          "id": "8b-u3-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "睡前把今天的两种时态句子各读3句，体会『过去的事』vs『影响现在』。"
+        },
+        {
+          "id": "8b-u3-10",
+          "slot": "morning",
+          "tag": "词汇",
+          "text": "communicate 名词 communication；click on the link 点击链接。"
+        },
+        {
+          "id": "8b-u3-11",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "网络词例句：Click on the website, search for information and download it — communicating online is easy."
+        },
+        {
+          "id": "8b-u3-12",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：The main advantage of the Internet is that information travels faster than ever."
+        }
       ]
     },
     {
@@ -218,26 +590,80 @@
       "topic_cn": "阅读之乐：书籍与必须/疑问词+不定式",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "novel", "cn": "小说"},
-        {"en": "author", "cn": "作者"},
-        {"en": "classic", "cn": "经典作品"},
-        {"en": "literature", "cn": "文学"},
-        {"en": "publish", "cn": "出版"},
-        {"en": "print", "cn": "印刷"},
-        {"en": "library", "cn": "图书馆"},
-        {"en": "borrow", "cn": "借入"},
-        {"en": "return", "cn": "归还"},
-        {"en": "habit", "cn": "习惯"},
-        {"en": "improve", "cn": "提高"},
-        {"en": "however", "cn": "然而"}
+        {
+          "en": "novel",
+          "cn": "小说"
+        },
+        {
+          "en": "author",
+          "cn": "作者"
+        },
+        {
+          "en": "classic",
+          "cn": "经典作品"
+        },
+        {
+          "en": "literature",
+          "cn": "文学"
+        },
+        {
+          "en": "publish",
+          "cn": "出版"
+        },
+        {
+          "en": "print",
+          "cn": "印刷"
+        },
+        {
+          "en": "library",
+          "cn": "图书馆"
+        },
+        {
+          "en": "borrow",
+          "cn": "借入"
+        },
+        {
+          "en": "return",
+          "cn": "归还"
+        },
+        {
+          "en": "habit",
+          "cn": "习惯"
+        },
+        {
+          "en": "improve",
+          "cn": "提高"
+        },
+        {
+          "en": "however",
+          "cn": "然而"
+        }
       ],
       "key_phrases": [
-        {"en": "be full of", "cn": "充满"},
-        {"en": "so that", "cn": "以便，为了"},
-        {"en": "borrow sth from sb", "cn": "从某人处借入"},
-        {"en": "lend sth to sb", "cn": "借出给某人"},
-        {"en": "keep reading", "cn": "坚持阅读"},
-        {"en": "a good sense of humour", "cn": "很好的幽默感"}
+        {
+          "en": "be full of",
+          "cn": "充满"
+        },
+        {
+          "en": "so that",
+          "cn": "以便，为了"
+        },
+        {
+          "en": "borrow sth from sb",
+          "cn": "从某人处借入"
+        },
+        {
+          "en": "lend sth to sb",
+          "cn": "借出给某人"
+        },
+        {
+          "en": "keep reading",
+          "cn": "坚持阅读"
+        },
+        {
+          "en": "a good sense of humour",
+          "cn": "很好的幽默感"
+        }
       ],
       "grammar": {
         "name": "疑问词 + to-infinitives；must 与 have to",
@@ -266,16 +692,78 @@
         "borrow...from 与 lend...to 方向别搞反"
       ],
       "tips": [
-        {"id": "8b-u4-01", "slot": "any", "tag": "语法", "text": "mustn't = 禁止；don't have to = 不必。You mustn't litter / You don't have to come early. 意思完全不同。"},
-        {"id": "8b-u4-02", "slot": "any", "tag": "语法", "text": "疑问词+to do：I don't know what to read next. = I don't know what I should read next."},
-        {"id": "8b-u4-03", "slot": "any", "tag": "易错", "text": "borrow 借入（borrow from），lend 借出（lend to）：Can you lend me your book?"},
-        {"id": "8b-u4-04", "slot": "morning", "tag": "方法", "text": "早读前先读2页课外书——用英语开始一天，比刷手机醒脑。"},
-        {"id": "8b-u4-05", "slot": "any", "tag": "句型", "text": "so that + 句子表目的：I take notes so that I can review later.（可与 in order to 互转）"},
-        {"id": "8b-u4-06", "slot": "any", "tag": "词汇", "text": "must 是主观『我要做』，have to 是客观『不得不做』——语境判断题常考。"},
-        {"id": "8b-u4-07", "slot": "evening", "tag": "自测", "text": "睡前把今天读的内容用3句英语概括，练 summary 能力。"},
-        {"id": "8b-u4-08", "slot": "any", "tag": "写作", "text": "推荐一本书：名字→主要内容→最喜欢的人物→一句推荐语（Don't miss it!）。"},
-        {"id": "8b-u4-09", "slot": "evening", "tag": "方法", "text": "睡前固定读10分钟英文读物，比周末补2小时有效得多。"},
-        {"id": "8b-u4-10", "slot": "morning", "tag": "语法", "text": "must 引导的一般疑问句否定回答：No, you needn't.（不用 mustn't！）"}
+        {
+          "id": "8b-u4-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "mustn't = 禁止；don't have to = 不必。You mustn't litter / You don't have to come early. 意思完全不同。"
+        },
+        {
+          "id": "8b-u4-02",
+          "slot": "any",
+          "tag": "语法",
+          "text": "疑问词+to do：I don't know what to read next. = I don't know what I should read next."
+        },
+        {
+          "id": "8b-u4-03",
+          "slot": "any",
+          "tag": "易错",
+          "text": "borrow 借入（borrow from），lend 借出（lend to）：Can you lend me your book?"
+        },
+        {
+          "id": "8b-u4-04",
+          "slot": "morning",
+          "tag": "方法",
+          "text": "早读前先读2页课外书——用英语开始一天，比刷手机醒脑。"
+        },
+        {
+          "id": "8b-u4-05",
+          "slot": "any",
+          "tag": "句型",
+          "text": "so that + 句子表目的：I take notes so that I can review later.（可与 in order to 互转）"
+        },
+        {
+          "id": "8b-u4-06",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "must 是主观『我要做』，have to 是客观『不得不做』——语境判断题常考。"
+        },
+        {
+          "id": "8b-u4-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "睡前把今天读的内容用3句英语概括，练 summary 能力。"
+        },
+        {
+          "id": "8b-u4-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "推荐一本书：名字→主要内容→最喜欢的人物→一句推荐语（Don't miss it!）。"
+        },
+        {
+          "id": "8b-u4-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "睡前固定读10分钟英文读物，比周末补2小时有效得多。"
+        },
+        {
+          "id": "8b-u4-10",
+          "slot": "morning",
+          "tag": "语法",
+          "text": "must 引导的一般疑问句否定回答：No, you needn't.（不用 mustn't！）"
+        },
+        {
+          "id": "8b-u4-11",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "书词例句：The novel was written by a famous author — this classic is worth reading again."
+        },
+        {
+          "id": "8b-u4-12",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：Borrow books from the library and return them on time — reading is a habit that improves your mind."
+        }
       ]
     },
     {
@@ -284,28 +772,88 @@
       "topic_cn": "文明礼仪：公共场合的规范",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "polite", "cn": "有礼貌的（反义词 impolite）"},
-        {"en": "manners", "cn": "礼仪，规矩"},
-        {"en": "queue", "cn": "排队；n. 队伍"},
-        {"en": "litter", "cn": "乱扔垃圾；n. 垃圾"},
-        {"en": "behave", "cn": "表现"},
-        {"en": "proper", "cn": "恰当的"},
-        {"en": "guest", "cn": "客人"},
-        {"en": "impolite", "cn": "无礼的"},
-        {"en": "pick", "cn": "捡，采摘"},
-        {"en": "avoid", "cn": "避免"},
-        {"en": "excuse", "cn": "借口；v. 原谅"},
-        {"en": "public", "cn": "公共的"}
+        {
+          "en": "polite",
+          "cn": "有礼貌的（反义词 impolite）"
+        },
+        {
+          "en": "manners",
+          "cn": "礼仪，规矩"
+        },
+        {
+          "en": "queue",
+          "cn": "排队；n. 队伍"
+        },
+        {
+          "en": "litter",
+          "cn": "乱扔垃圾；n. 垃圾"
+        },
+        {
+          "en": "behave",
+          "cn": "表现"
+        },
+        {
+          "en": "proper",
+          "cn": "恰当的"
+        },
+        {
+          "en": "guest",
+          "cn": "客人"
+        },
+        {
+          "en": "impolite",
+          "cn": "无礼的"
+        },
+        {
+          "en": "pick",
+          "cn": "捡，采摘"
+        },
+        {
+          "en": "avoid",
+          "cn": "避免"
+        },
+        {
+          "en": "excuse",
+          "cn": "借口；v. 原谅"
+        },
+        {
+          "en": "public",
+          "cn": "公共的"
+        }
       ],
       "key_phrases": [
-        {"en": "enough to do sth", "cn": "足够……可以做……"},
-        {"en": "too ... to ...", "cn": "太……而不能……"},
-        {"en": "wait in line / queue for one's turn", "cn": "排队等候"},
-        {"en": "drop litter", "cn": "乱扔垃圾"},
-        {"en": "pick up", "cn": "捡起"},
-        {"en": "keep quiet", "cn": "保持安静"},
-        {"en": "in public", "cn": "在公共场合"},
-        {"en": "excuse me", "cn": "打扰一下"}
+        {
+          "en": "enough to do sth",
+          "cn": "足够……可以做……"
+        },
+        {
+          "en": "too ... to ...",
+          "cn": "太……而不能……"
+        },
+        {
+          "en": "wait in line / queue for one's turn",
+          "cn": "排队等候"
+        },
+        {
+          "en": "drop litter",
+          "cn": "乱扔垃圾"
+        },
+        {
+          "en": "pick up",
+          "cn": "捡起"
+        },
+        {
+          "en": "keep quiet",
+          "cn": "保持安静"
+        },
+        {
+          "en": "in public",
+          "cn": "在公共场合"
+        },
+        {
+          "en": "excuse me",
+          "cn": "打扰一下"
+        }
       ],
       "grammar": {
         "name": "enough 与 too 的用法；enough to / too ... to",
@@ -333,16 +881,78 @@
         "enough 的位置：old enough（形后）vs enough time（名前）"
       ],
       "tips": [
-        {"id": "8b-u5-01", "slot": "any", "tag": "语法", "text": "三句互转背熟：He is too young to go. = He is so young that he can't go. = He is not old enough to go."},
-        {"id": "8b-u5-02", "slot": "any", "tag": "易错", "text": "enough 位置口诀：形后名前——old enough ✓ / enough old ✗；enough money ✓ / money enough ✗"},
-        {"id": "8b-u5-03", "slot": "any", "tag": "词汇", "text": "polite→impolite（否定前缀 im-）；possible→impossible 同款。"},
-        {"id": "8b-u5-04", "slot": "morning", "tag": "口语", "text": "早读说校园礼仪：Queue for your turn. / Don't drop litter. / Say 'please' and 'thank you'."},
-        {"id": "8b-u5-05", "slot": "any", "tag": "句型", "text": "It's + adj + to do 评价行为：It's impolite to talk with your mouth full."},
-        {"id": "8b-u5-06", "slot": "any", "tag": "易错", "text": "avoid + doing：Avoid making noise. 不接 to do。"},
-        {"id": "8b-u5-07", "slot": "evening", "tag": "自测", "text": "睡前把 too...to 三句互转各默写一遍，这是本单元最值钱的句型。"},
-        {"id": "8b-u5-08", "slot": "any", "tag": "写作", "text": "礼仪作文：总起（Good manners are important.）→4条 do/don't→结尾倡议。"},
-        {"id": "8b-u5-09", "slot": "evening", "tag": "方法", "text": "睡前自查：今天有没有排队、有没有说 thank you——礼仪是练出来的。"},
-        {"id": "8b-u5-10", "slot": "morning", "tag": "语法", "text": "too...to 里的 too 是『太…以至于不』，自带否定，别再加 not。"}
+        {
+          "id": "8b-u5-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "三句互转背熟：He is too young to go. = He is so young that he can't go. = He is not old enough to go."
+        },
+        {
+          "id": "8b-u5-02",
+          "slot": "any",
+          "tag": "易错",
+          "text": "enough 位置口诀：形后名前——old enough ✓ / enough old ✗；enough money ✓ / money enough ✗"
+        },
+        {
+          "id": "8b-u5-03",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "polite→impolite（否定前缀 im-）；possible→impossible 同款。"
+        },
+        {
+          "id": "8b-u5-04",
+          "slot": "morning",
+          "tag": "口语",
+          "text": "早读说校园礼仪：Queue for your turn. / Don't drop litter. / Say 'please' and 'thank you'."
+        },
+        {
+          "id": "8b-u5-05",
+          "slot": "any",
+          "tag": "句型",
+          "text": "It's + adj + to do 评价行为：It's impolite to talk with your mouth full."
+        },
+        {
+          "id": "8b-u5-06",
+          "slot": "any",
+          "tag": "易错",
+          "text": "avoid + doing：Avoid making noise. 不接 to do。"
+        },
+        {
+          "id": "8b-u5-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "睡前把 too...to 三句互转各默写一遍，这是本单元最值钱的句型。"
+        },
+        {
+          "id": "8b-u5-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "礼仪作文：总起（Good manners are important.）→4条 do/don't→结尾倡议。"
+        },
+        {
+          "id": "8b-u5-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "睡前自查：今天有没有排队、有没有说 thank you——礼仪是练出来的。"
+        },
+        {
+          "id": "8b-u5-10",
+          "slot": "morning",
+          "tag": "语法",
+          "text": "too...to 里的 too 是『太…以至于不』，自带否定，别再加 not。"
+        },
+        {
+          "id": "8b-u5-11",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "礼貌词例句：It's polite to queue for your turn, but impolite to drop litter or push in."
+        },
+        {
+          "id": "8b-u5-12",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：He behaved properly as a guest — he avoided making noise and picked up the litter."
+        }
       ]
     },
     {
@@ -351,26 +961,80 @@
       "topic_cn": "阳光普照：关爱弱势群体与志愿服务",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "volunteer", "cn": "志愿者；v. 自愿做"},
-        {"en": "disabled", "cn": "残疾的"},
-        {"en": "blind", "cn": "失明的"},
-        {"en": "deaf", "cn": "失聪的"},
-        {"en": "donate", "cn": "捐赠"},
-        {"en": "charity", "cn": "慈善机构"},
-        {"en": "meaningful", "cn": "有意义的"},
-        {"en": "chance", "cn": "机会"},
-        {"en": "support", "cn": "支持"},
-        {"en": "event", "cn": "活动，赛事"},
-        {"en": "task", "cn": "任务"},
-        {"en": "spirit", "cn": "精神"}
+        {
+          "en": "volunteer",
+          "cn": "志愿者；v. 自愿做"
+        },
+        {
+          "en": "disabled",
+          "cn": "残疾的"
+        },
+        {
+          "en": "blind",
+          "cn": "失明的"
+        },
+        {
+          "en": "deaf",
+          "cn": "失聪的"
+        },
+        {
+          "en": "donate",
+          "cn": "捐赠"
+        },
+        {
+          "en": "charity",
+          "cn": "慈善机构"
+        },
+        {
+          "en": "meaningful",
+          "cn": "有意义的"
+        },
+        {
+          "en": "chance",
+          "cn": "机会"
+        },
+        {
+          "en": "support",
+          "cn": "支持"
+        },
+        {
+          "en": "event",
+          "cn": "活动，赛事"
+        },
+        {
+          "en": "task",
+          "cn": "任务"
+        },
+        {
+          "en": "spirit",
+          "cn": "精神"
+        }
       ],
       "key_phrases": [
-        {"en": "It is + adj + (for/of sb) to do", "cn": "对某人来说做某事是……"},
-        {"en": "volunteer to do sth", "cn": "自愿做某事"},
-        {"en": "donate ... to ...", "cn": "把……捐赠给……"},
-        {"en": "care for", "cn": "照顾，关心"},
-        {"en": "give up", "cn": "放弃"},
-        {"en": "have trouble (in) doing sth", "cn": "做某事有困难"}
+        {
+          "en": "It is + adj + (for/of sb) to do",
+          "cn": "对某人来说做某事是……"
+        },
+        {
+          "en": "volunteer to do sth",
+          "cn": "自愿做某事"
+        },
+        {
+          "en": "donate ... to ...",
+          "cn": "把……捐赠给……"
+        },
+        {
+          "en": "care for",
+          "cn": "照顾，关心"
+        },
+        {
+          "en": "give up",
+          "cn": "放弃"
+        },
+        {
+          "en": "have trouble (in) doing sth",
+          "cn": "做某事有困难"
+        }
       ],
       "grammar": {
         "name": "It is + adj + to do / for sb to do / of sb to do",
@@ -398,16 +1062,78 @@
         "have trouble (in) doing 的固定搭配"
       ],
       "tips": [
-        {"id": "8b-u6-01", "slot": "any", "tag": "语法", "text": "for 还是 of？形容词说人品（kind/brave/generous）用 of；说事情难易重要（important/hard）用 for。"},
-        {"id": "8b-u6-02", "slot": "any", "tag": "句型", "text": "It is meaningful to help others. It 是形式主语，真正的主语是 to help others。"},
-        {"id": "8b-u6-03", "slot": "any", "tag": "易错", "text": "have trouble (in) doing：He has trouble walking. 不用 to do。"},
-        {"id": "8b-u6-04", "slot": "morning", "tag": "词汇", "text": "早读背关爱词群：disabled, blind, deaf, donate, volunteer, charity。"},
-        {"id": "8b-u6-05", "slot": "any", "tag": "词汇", "text": "词形转换高频：donate→donation；mean→meaningful；kind→kindness。"},
-        {"id": "8b-u6-06", "slot": "any", "tag": "句型", "text": "give up 后接 doing：Never give up trying. 不是 to try。"},
-        {"id": "8b-u6-07", "slot": "evening", "tag": "自测", "text": "睡前5道 for/of 快速判断，说出判断理由。"},
-        {"id": "8b-u6-08", "slot": "any", "tag": "写作", "text": "志愿作文三步：做了什么（volunteered to...）→遇到什么困难（It was difficult to...）→收获（It is meaningful to...）。"},
-        {"id": "8b-u6-09", "slot": "evening", "tag": "方法", "text": "睡前想想明天能不能帮别人做一件小事——单元主题落到行动。"},
-        {"id": "8b-u6-10", "slot": "morning", "tag": "语法", "text": "It's + adj + of sb to do 中的 sb 用宾格：It was kind of him（不是 he）to help。"}
+        {
+          "id": "8b-u6-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "for 还是 of？形容词说人品（kind/brave/generous）用 of；说事情难易重要（important/hard）用 for。"
+        },
+        {
+          "id": "8b-u6-02",
+          "slot": "any",
+          "tag": "句型",
+          "text": "It is meaningful to help others. It 是形式主语，真正的主语是 to help others。"
+        },
+        {
+          "id": "8b-u6-03",
+          "slot": "any",
+          "tag": "易错",
+          "text": "have trouble (in) doing：He has trouble walking. 不用 to do。"
+        },
+        {
+          "id": "8b-u6-04",
+          "slot": "morning",
+          "tag": "词汇",
+          "text": "早读背关爱词群：disabled, blind, deaf, donate, volunteer, charity。"
+        },
+        {
+          "id": "8b-u6-05",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "词形转换高频：donate→donation；mean→meaningful；kind→kindness。"
+        },
+        {
+          "id": "8b-u6-06",
+          "slot": "any",
+          "tag": "句型",
+          "text": "give up 后接 doing：Never give up trying. 不是 to try。"
+        },
+        {
+          "id": "8b-u6-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "睡前5道 for/of 快速判断，说出判断理由。"
+        },
+        {
+          "id": "8b-u6-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "志愿作文三步：做了什么（volunteered to...）→遇到什么困难（It was difficult to...）→收获（It is meaningful to...）。"
+        },
+        {
+          "id": "8b-u6-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "睡前想想明天能不能帮别人做一件小事——单元主题落到行动。"
+        },
+        {
+          "id": "8b-u6-10",
+          "slot": "morning",
+          "tag": "语法",
+          "text": "It's + adj + of sb to do 中的 sb 用宾格：It was kind of him（不是 he）to help。"
+        },
+        {
+          "id": "8b-u6-11",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "关爱词例句：The disabled need our support — volunteer to donate books or care for the blind."
+        },
+        {
+          "id": "8b-u6-12",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：Joining the charity event is a meaningful chance to show kindness and team spirit."
+        }
       ]
     },
     {
@@ -416,27 +1142,84 @@
       "topic_cn": "慈善组织与被动语态（一）",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "charity", "cn": "慈善机构"},
-        {"en": "organization", "cn": "组织"},
-        {"en": "operation", "cn": "手术；运转（operate v.）"},
-        {"en": "treatment", "cn": "治疗（treat v.）"},
-        {"en": "afford", "cn": "买得起，承担得起"},
-        {"en": "medicine", "cn": "医学；药"},
-        {"en": "patient", "cn": "病人；adj. 耐心的"},
-        {"en": "spread", "cn": "传播，蔓延"},
-        {"en": "interview", "cn": "采访"},
-        {"en": "proud", "cn": "自豪的（pride n.）"},
-        {"en": "develop", "cn": "发展（development n.）"},
-        {"en": "found", "cn": "创立（= set up）"}
+        {
+          "en": "charity",
+          "cn": "慈善机构"
+        },
+        {
+          "en": "organization",
+          "cn": "组织"
+        },
+        {
+          "en": "operation",
+          "cn": "手术；运转（operate v.）"
+        },
+        {
+          "en": "treatment",
+          "cn": "治疗（treat v.）"
+        },
+        {
+          "en": "afford",
+          "cn": "买得起，承担得起"
+        },
+        {
+          "en": "medicine",
+          "cn": "医学；药"
+        },
+        {
+          "en": "patient",
+          "cn": "病人；adj. 耐心的"
+        },
+        {
+          "en": "spread",
+          "cn": "传播，蔓延"
+        },
+        {
+          "en": "interview",
+          "cn": "采访"
+        },
+        {
+          "en": "proud",
+          "cn": "自豪的（pride n.）"
+        },
+        {
+          "en": "develop",
+          "cn": "发展（development n.）"
+        },
+        {
+          "en": "found",
+          "cn": "创立（= set up）"
+        }
       ],
       "key_phrases": [
-        {"en": "set up", "cn": "建立，创立"},
-        {"en": "carry on with sth", "cn": "继续做某事"},
-        {"en": "hand out = give out", "cn": "分发"},
-        {"en": "in order to do sth", "cn": "为了做某事"},
-        {"en": "afford to do sth", "cn": "负担得起做某事"},
-        {"en": "so that / so ... that ...", "cn": "以便/如此……以至于"},
-        {"en": "be proud of", "cn": "为……自豪"}
+        {
+          "en": "set up",
+          "cn": "建立，创立"
+        },
+        {
+          "en": "carry on with sth",
+          "cn": "继续做某事"
+        },
+        {
+          "en": "hand out = give out",
+          "cn": "分发"
+        },
+        {
+          "en": "in order to do sth",
+          "cn": "为了做某事"
+        },
+        {
+          "en": "afford to do sth",
+          "cn": "负担得起做某事"
+        },
+        {
+          "en": "so that / so ... that ...",
+          "cn": "以便/如此……以至于"
+        },
+        {
+          "en": "be proud of",
+          "cn": "为……自豪"
+        }
       ],
       "grammar": {
         "name": "被动语态（一）：一般现在时与一般过去时",
@@ -465,19 +1248,96 @@
         "so...that 与 so that 的区分（结果 vs 目的）"
       ],
       "tips": [
-        {"id": "8b-u7-01", "slot": "any", "tag": "语法", "text": "被动语态公式：be + 过去分词。现在时 is/are done，过去时 was/were done。"},
-        {"id": "8b-u7-02", "slot": "any", "tag": "易错", "text": "别忘过去分词！The school was set up in 2000. 不能写 was set up→was setUp/was seting。"},
-        {"id": "8b-u7-03", "slot": "any", "tag": "语法", "text": "变被动口诀：宾变主，be 随时态变，动词变过去分词，原主语放 by 后。"},
-        {"id": "8b-u7-04", "slot": "morning", "tag": "口语", "text": "早读把今天的日常事变成被动句：The classroom is cleaned every day. 造3句。"},
-        {"id": "8b-u7-05", "slot": "any", "tag": "词汇", "text": "afford 常与 can/can't 连用：can't afford to buy a house。"},
-        {"id": "8b-u7-06", "slot": "any", "tag": "句型", "text": "so that（目的，接句子）vs so...that（结果）：He saved money so that he could... / He was so moved that he cried."},
-        {"id": "8b-u7-07", "slot": "evening", "tag": "自测", "text": "睡前把今天写的5个主动句改成被动句，检查过去分词。"},
-        {"id": "8b-u7-08", "slot": "any", "tag": "写作", "text": "慈善机构作文：It was set up in ... / Children are given food and education by it. 被动句是本单元作文加分点。"},
-        {"id": "8b-u7-09", "slot": "evening", "tag": "方法", "text": "睡前再背10个不规则过去分词——被动语态全靠它。"},
-        {"id": "8b-u7-10", "slot": "morning", "tag": "词汇", "text": "treat（治疗）→treatment；operate（做手术）→operation。"},
-        {"id": "8b-u7-11", "slot": "any", "tag": "易错", "text": "不及物动词没有被动：happen、take place、appear 不用 be done。"},
-        {"id": "8b-u7-12", "slot": "any", "tag": "易错", "text": "动词短语变被动不能丢介词：He was laughed at.（不是 was laughed）look after 同理。"},
-        {"id": "8b-u7-13", "slot": "any", "tag": "语法", "text": "情态动词被动口诀：情态动词 + be + 过去分词。This watch can be repaired in two days。"}
+        {
+          "id": "8b-u7-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "被动语态公式：be + 过去分词。现在时 is/are done，过去时 was/were done。"
+        },
+        {
+          "id": "8b-u7-02",
+          "slot": "any",
+          "tag": "易错",
+          "text": "别忘过去分词！The school was set up in 2000. 不能写 was set up→was setUp/was seting。"
+        },
+        {
+          "id": "8b-u7-03",
+          "slot": "any",
+          "tag": "语法",
+          "text": "变被动口诀：宾变主，be 随时态变，动词变过去分词，原主语放 by 后。"
+        },
+        {
+          "id": "8b-u7-04",
+          "slot": "morning",
+          "tag": "口语",
+          "text": "早读把今天的日常事变成被动句：The classroom is cleaned every day. 造3句。"
+        },
+        {
+          "id": "8b-u7-05",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "afford 常与 can/can't 连用：can't afford to buy a house。"
+        },
+        {
+          "id": "8b-u7-06",
+          "slot": "any",
+          "tag": "句型",
+          "text": "so that（目的，接句子）vs so...that（结果）：He saved money so that he could... / He was so moved that he cried."
+        },
+        {
+          "id": "8b-u7-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "睡前把今天写的5个主动句改成被动句，检查过去分词。"
+        },
+        {
+          "id": "8b-u7-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "慈善机构作文：It was set up in ... / Children are given food and education by it. 被动句是本单元作文加分点。"
+        },
+        {
+          "id": "8b-u7-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "睡前再背10个不规则过去分词——被动语态全靠它。"
+        },
+        {
+          "id": "8b-u7-10",
+          "slot": "morning",
+          "tag": "词汇",
+          "text": "treat（治疗）→treatment；operate（做手术）→operation。"
+        },
+        {
+          "id": "8b-u7-11",
+          "slot": "any",
+          "tag": "易错",
+          "text": "不及物动词没有被动：happen、take place、appear 不用 be done。"
+        },
+        {
+          "id": "8b-u7-12",
+          "slot": "any",
+          "tag": "易错",
+          "text": "动词短语变被动不能丢介词：He was laughed at.（不是 was laughed）look after 同理。"
+        },
+        {
+          "id": "8b-u7-13",
+          "slot": "any",
+          "tag": "语法",
+          "text": "情态动词被动口诀：情态动词 + be + 过去分词。This watch can be repaired in two days。"
+        },
+        {
+          "id": "8b-u7-14",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "慈善词例句：The charity was set up to help the poor — doctors treat patients and hand out medicine."
+        },
+        {
+          "id": "8b-u7-15",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：Many patients can't afford treatment, so the charity carries on with free operations."
+        }
       ]
     },
     {
@@ -486,27 +1346,84 @@
       "topic_cn": "绿色世界：环保生活与被动语态（二）",
       "estimated_weeks": 2,
       "core_vocab": [
-        {"en": "reduce", "cn": "减少"},
-        {"en": "recycle", "cn": "回收利用"},
-        {"en": "reuse", "cn": "再利用"},
-        {"en": "wise", "cn": "明智的（wisely adv.）"},
-        {"en": "plastic", "cn": "塑料"},
-        {"en": "separate", "cn": "分开，分类"},
-        {"en": "energy", "cn": "能源，能量"},
-        {"en": "electricity", "cn": "电"},
-        {"en": "environment", "cn": "环境"},
-        {"en": "rubbish", "cn": "垃圾"},
-        {"en": "harm", "cn": "伤害；n. 危害"},
-        {"en": "limit", "cn": "限制"}
+        {
+          "en": "reduce",
+          "cn": "减少"
+        },
+        {
+          "en": "recycle",
+          "cn": "回收利用"
+        },
+        {
+          "en": "reuse",
+          "cn": "再利用"
+        },
+        {
+          "en": "wise",
+          "cn": "明智的（wisely adv.）"
+        },
+        {
+          "en": "plastic",
+          "cn": "塑料"
+        },
+        {
+          "en": "separate",
+          "cn": "分开，分类"
+        },
+        {
+          "en": "energy",
+          "cn": "能源，能量"
+        },
+        {
+          "en": "electricity",
+          "cn": "电"
+        },
+        {
+          "en": "environment",
+          "cn": "环境"
+        },
+        {
+          "en": "rubbish",
+          "cn": "垃圾"
+        },
+        {
+          "en": "harm",
+          "cn": "伤害；n. 危害"
+        },
+        {
+          "en": "limit",
+          "cn": "限制"
+        }
       ],
       "key_phrases": [
-        {"en": "go green", "cn": "践行绿色生活"},
-        {"en": "reduce waste", "cn": "减少浪费"},
-        {"en": "be separated into", "cn": "被分成"},
-        {"en": "turn off", "cn": "关掉（电源、水）"},
-        {"en": "run out of", "cn": "用完"},
-        {"en": "It is time for us to ...", "cn": "该是我们……的时候了"},
-        {"en": "depend on", "cn": "依靠"}
+        {
+          "en": "go green",
+          "cn": "践行绿色生活"
+        },
+        {
+          "en": "reduce waste",
+          "cn": "减少浪费"
+        },
+        {
+          "en": "be separated into",
+          "cn": "被分成"
+        },
+        {
+          "en": "turn off",
+          "cn": "关掉（电源、水）"
+        },
+        {
+          "en": "run out of",
+          "cn": "用完"
+        },
+        {
+          "en": "It is time for us to ...",
+          "cn": "该是我们……的时候了"
+        },
+        {
+          "en": "depend on",
+          "cn": "依靠"
+        }
       ],
       "grammar": {
         "name": "被动语态（二）：一般将来时",
@@ -535,18 +1452,90 @@
         "主动表被动：The books sell well. / The dish smells good."
       ],
       "tips": [
-        {"id": "8b-u8-01", "slot": "any", "tag": "语法", "text": "将来被动 = will be + 过去分词：More trees will be planted. 不是 will plant。"},
-        {"id": "8b-u8-02", "slot": "any", "tag": "语法", "text": "be going to be done：A lot of activities are going to be held in the town square。"},
-        {"id": "8b-u8-03", "slot": "any", "tag": "易错", "text": "主动表被动：The books sell well（畅销）；The music sounds nice。系动词后不加被动。"},
-        {"id": "8b-u8-04", "slot": "morning", "tag": "口语", "text": "早读绿色承诺3句：Plastic bags will be banned. / Rubbish will be separated. / More trees will be planted."},
-        {"id": "8b-u8-05", "slot": "any", "tag": "词汇", "text": "re- 词族：reuse 再利用，recycle 回收，reduce 减少——三个 re 分清。"},
-        {"id": "8b-u8-06", "slot": "any", "tag": "句型", "text": "It is time for us to go green. = It is time that we went green.（高考前的伏笔，了解即可）"},
-        {"id": "8b-u8-07", "slot": "evening", "tag": "自测", "text": "期末冲刺：睡前把三种被动（is done / was done / will be done）各默写1句。"},
-        {"id": "8b-u8-08", "slot": "any", "tag": "写作", "text": "环保作文：现状（is polluted）→措施（will be taken / we should）→展望（a greener world will be built）。"},
-        {"id": "8b-u8-09", "slot": "evening", "tag": "方法", "text": "期末周：睡前用『回忆法』合上书过一遍本单元知识清单，想不起的标记明天看。"},
-        {"id": "8b-u8-10", "slot": "morning", "tag": "词汇", "text": "wise→wisely：We should use energy wisely. good 的副词也是 well。"},
-        {"id": "8b-u8-11", "slot": "any", "tag": "语法", "text": "被动三步法：找动作承受者→变主语→调 be 动词时态，最后动词全变过去分词。"},
-        {"id": "8b-u8-12", "slot": "any", "tag": "易错", "text": "by + 执行者，in + 地点：It is made by us. / It is made in China。"}
+        {
+          "id": "8b-u8-01",
+          "slot": "any",
+          "tag": "语法",
+          "text": "将来被动 = will be + 过去分词：More trees will be planted. 不是 will plant。"
+        },
+        {
+          "id": "8b-u8-02",
+          "slot": "any",
+          "tag": "语法",
+          "text": "be going to be done：A lot of activities are going to be held in the town square。"
+        },
+        {
+          "id": "8b-u8-03",
+          "slot": "any",
+          "tag": "易错",
+          "text": "主动表被动：The books sell well（畅销）；The music sounds nice。系动词后不加被动。"
+        },
+        {
+          "id": "8b-u8-04",
+          "slot": "morning",
+          "tag": "口语",
+          "text": "早读绿色承诺3句：Plastic bags will be banned. / Rubbish will be separated. / More trees will be planted."
+        },
+        {
+          "id": "8b-u8-05",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "re- 词族：reuse 再利用，recycle 回收，reduce 减少——三个 re 分清。"
+        },
+        {
+          "id": "8b-u8-06",
+          "slot": "any",
+          "tag": "句型",
+          "text": "It is time for us to go green. = It is time that we went green.（高考前的伏笔，了解即可）"
+        },
+        {
+          "id": "8b-u8-07",
+          "slot": "evening",
+          "tag": "自测",
+          "text": "期末冲刺：睡前把三种被动（is done / was done / will be done）各默写1句。"
+        },
+        {
+          "id": "8b-u8-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "环保作文：现状（is polluted）→措施（will be taken / we should）→展望（a greener world will be built）。"
+        },
+        {
+          "id": "8b-u8-09",
+          "slot": "evening",
+          "tag": "方法",
+          "text": "期末周：睡前用『回忆法』合上书过一遍本单元知识清单，想不起的标记明天看。"
+        },
+        {
+          "id": "8b-u8-10",
+          "slot": "morning",
+          "tag": "词汇",
+          "text": "wise→wisely：We should use energy wisely. good 的副词也是 well。"
+        },
+        {
+          "id": "8b-u8-11",
+          "slot": "any",
+          "tag": "语法",
+          "text": "被动三步法：找动作承受者→变主语→调 be 动词时态，最后动词全变过去分词。"
+        },
+        {
+          "id": "8b-u8-12",
+          "slot": "any",
+          "tag": "易错",
+          "text": "by + 执行者，in + 地点：It is made by us. / It is made in China。"
+        },
+        {
+          "id": "8b-u8-13",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "环保词例句：Rubbish should be separated and plastic bags reduced — we can reuse things wisely."
+        },
+        {
+          "id": "8b-u8-14",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "例句：Less electricity will be wasted if we turn off the lights — going green saves energy."
+        }
       ]
     }
   ]
