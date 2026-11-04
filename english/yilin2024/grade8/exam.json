@@ -8,7 +8,7 @@
     "term": "技能专栏",
     "term_code": "EXAM",
     "verified_at": "2026-09-24",
-    "note": "内容来源：抖音英语博主（sec_uid MS4wLjABAAAAMSzy8NPRm_4EAqmllEll8uAWCqpiY6lWb-7ZdqVtzoc）视频转写 + qwen2.5:7b 归纳 + 人工筛选改写。36 条原始产出中 14 条入选，22 条因瞎编/鸡汤/无实例淘汰。另含第5单元『英语写作指导』（老师课件归纳）与第6单元『期中考点梳理 U1-U4』（21世纪教育网/学科网期中资料归纳，2026-10-18）。看板以 25% 概率在英语时段展示本专栏。"
+    "note": "内容来源：抖音英语博主（sec_uid MS4wLjABAAAAMSzy8NPRm_4EAqmllEll8uAWCqpiY6lWb-7ZdqVtzoc）视频转写 + qwen2.5:7b 归纳 + 人工筛选改写。36 条原始产出中 14 条入选，22 条因瞎编/鸡汤/无实例淘汰。另含第5单元『英语写作指导』（老师课件归纳）与第6单元『期中考点梳理 U1-U4』（21世纪教育网/学科网期中资料归纳，2026-10-18）。第7/8单元『期中冲刺』来自 B站 AI 字幕提炼（2026-10-18）：教英语的Ms臧《八上英语期中高频考点通关》、江苏译林英语Grace《苏教版8A期中易错题复习》、明明老师教英语《完形填空题型精讲》、英语盖老师《译林英语划重点》日更系列。第9单元『作文万能句式』来自 B站 曹志初中英语/盖老师作文1+1句式/李八鸭译林押题字幕提炼（2026-10-18）。看板以 25% 概率在英语时段展示本专栏。"
   },
   "units": [
     {
@@ -308,6 +308,399 @@
           "slot": "any",
           "tag": "方法",
           "text": "期中题型：听力/单选/完形/阅读/单词拼写/翻译/书面表达——翻译题先搭句子骨架再润色。"
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "非谓语与词形转换",
+      "topic_cn": "期中冲刺：不定式/动名词固定搭配、-ed/-ing 形容词、副词变化、名词复数（来源：B站 教英语的Ms臧《八上英语期中高频考点通关》+ 江苏译林英语Grace《苏教版8A期中易错题》，AI字幕提炼，2026-10-18）",
+      "key_points": [
+        "不定式固定搭配",
+        "介词后接 doing",
+        "-ed/-ing 形容词",
+        "名词复数规则"
+      ],
+      "tips": [
+        {
+          "id": "exam-u7-01",
+          "slot": "any",
+          "tag": "句型",
+          "text": "remind / invite / encourage sb (not) to do：提醒、邀请、鼓励某人（不）做某事，都接不定式。"
+        },
+        {
+          "id": "exam-u7-02",
+          "slot": "any",
+          "tag": "句型",
+          "text": "plan to do / expect to do / feel free to do / use sth to do——常见不定式搭配，考试就考记搭配。"
+        },
+        {
+          "id": "exam-u7-03",
+          "slot": "any",
+          "tag": "易错",
+          "text": "be ready to do（乐于做）、can't wait to do（迫不及待）——看到就条件反射填 to do。"
+        },
+        {
+          "id": "exam-u7-04",
+          "slot": "any",
+          "tag": "语法",
+          "text": "go + doing 表示去做某事：go camping / go swimming / go shopping。"
+        },
+        {
+          "id": "exam-u7-05",
+          "slot": "any",
+          "tag": "语法",
+          "text": "be busy doing 忙于做某事；see sb doing 看见正在做（进行中），see sb do 看见全过程。"
+        },
+        {
+          "id": "exam-u7-06",
+          "slot": "any",
+          "tag": "易错",
+          "text": "动词作主语用 doing，谓语用单数：Going to bed early is a good habit."
+        },
+        {
+          "id": "exam-u7-07",
+          "slot": "any",
+          "tag": "易错",
+          "text": "介词后的动词一律用 doing：against / thanks for / besides / by / after / in + doing。"
+        },
+        {
+          "id": "exam-u7-08",
+          "slot": "any",
+          "tag": "句型",
+          "text": "have problems / difficulties (in) doing sth. 做……有困难——in 可省略，后面照样跟 doing。"
+        },
+        {
+          "id": "exam-u7-09",
+          "slot": "any",
+          "tag": "语法",
+          "text": "接动词原形的结构：let sb do / don't have to do / could you please (not) do / in order to do。"
+        },
+        {
+          "id": "exam-u7-10",
+          "slot": "any",
+          "tag": "易错",
+          "text": "do nothing but do：but 前面有 do，后面就用原形——I could do nothing but stay.（U1 知识点）"
+        },
+        {
+          "id": "exam-u7-11",
+          "slot": "any",
+          "tag": "易错",
+          "text": "逗号不能连接两个句子：To be a good singer, you should practice more.（表目的）；若用 and 连接才用动词原形 be。"
+        },
+        {
+          "id": "exam-u7-12",
+          "slot": "any",
+          "tag": "易错",
+          "text": "maybe=perhaps，副词放句首；may be 拆开用，是情态动词 may + be，后面谓语另算。"
+        },
+        {
+          "id": "exam-u7-13",
+          "slot": "any",
+          "tag": "语法",
+          "text": "come/go 等短暂性动词的进行时表将来：Mr Zhang is coming soon.（不是正在进行）"
+        },
+        {
+          "id": "exam-u7-14",
+          "slot": "any",
+          "tag": "语法",
+          "text": "need to do（实义动词）与 need do（情态动词）都对，拿不准时用 need to do 更稳。"
+        },
+        {
+          "id": "exam-u7-15",
+          "slot": "any",
+          "tag": "易错",
+          "text": "-ed 修饰人（感到……），-ing 修饰物（令人……）：I was surprised at the amazing story."
+        },
+        {
+          "id": "exam-u7-16",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "forgetful 人健忘 / forgettable 物易被忘；true→truly（去 e 加 ly，不是 truely）。"
+        },
+        {
+          "id": "exam-u7-17",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "especially（尤其）常出现在逗号后的句首，闭眼填；actually 同理，句首注意大写。"
+        },
+        {
+          "id": "exam-u7-18",
+          "slot": "any",
+          "tag": "易错",
+          "text": "feel 等系动词后接形容词：felt helpless（无助的）、cheerless（无精打采），别写成 helpful/cheerful。"
+        },
+        {
+          "id": "exam-u7-19",
+          "slot": "any",
+          "tag": "语法",
+          "text": "名词复数标志词：数词、many、some、different、all kinds of 后的可数名词要用复数。"
+        },
+        {
+          "id": "exam-u7-20",
+          "slot": "any",
+          "tag": "口诀",
+          "text": "辅音+y→ies：community→communities；f/fe→ves：shelf→shelves、scarf→scarves。"
+        },
+        {
+          "id": "exam-u7-21",
+          "slot": "any",
+          "tag": "方法",
+          "text": "口诀「可数名词不裸奔」：前面加限定词（a/the/my）或后面变复数，不能单独出现。"
+        },
+        {
+          "id": "exam-u7-22",
+          "slot": "any",
+          "tag": "易错",
+          "text": "and 前后一致性：such as rabbits and deer——deer 单复同形；and 前是复数，后面也得复数。"
+        },
+        {
+          "id": "exam-u7-23",
+          "slot": "any",
+          "tag": "词汇",
+          "text": "interest 表「兴趣」不可数：have a lot of interest in……（不能再变 interesting/interested）。"
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "比较级与答题技巧",
+      "topic_cn": "期中冲刺：比较级最高级标志与句型、完形感情色彩法、江苏首字母策略（来源：B站 Ms臧期中考点 + 明明老师教英语《完形填空题型精讲》+ 英语盖老师《译林英语划重点》，AI字幕提炼，2026-10-18）",
+      "key_points": [
+        "比较级标志词",
+        "the more…the more…",
+        "感情色彩法",
+        "首字母填空"
+      ],
+      "tips": [
+        {
+          "id": "exam-u8-01",
+          "slot": "any",
+          "tag": "口诀",
+          "text": "修饰比较级口诀「两多两少两甚至一远」：much/a lot、a little/a bit、even/still、far——very 不行。"
+        },
+        {
+          "id": "exam-u8-02",
+          "slot": "any",
+          "tag": "易错",
+          "text": "as…as 之间用原级，但修饰动词要变副词：She writes as carefully as her sister."
+        },
+        {
+          "id": "exam-u8-03",
+          "slot": "any",
+          "tag": "易错",
+          "text": "the + 比较级 + of the two 表示「两者中较……的」，别看到 the 就填最高级：the taller of the two."
+        },
+        {
+          "id": "exam-u8-04",
+          "slot": "any",
+          "tag": "语法",
+          "text": "副词比较级变 y 为 i 加 er：early→earlier；双写：thin→thinner、big→bigger。"
+        },
+        {
+          "id": "exam-u8-05",
+          "slot": "any",
+          "tag": "句型",
+          "text": "「the + 比较级，the + 比较级」：The harder you work, the better grades you will get."
+        },
+        {
+          "id": "exam-u8-06",
+          "slot": "any",
+          "tag": "易错",
+          "text": "没有明示比较也要用比较级：May I have more beef? / I feel even worse.——现在与过去比。"
+        },
+        {
+          "id": "exam-u8-07",
+          "slot": "any",
+          "tag": "题型",
+          "text": "最高级标志：三者比较、in + 范围、among/of + 群体、the + n. + (that) sb has ever seen."
+        },
+        {
+          "id": "exam-u8-08",
+          "slot": "any",
+          "tag": "句型",
+          "text": "one of the + 最高级 + 复数名词：one of the most important lessons——最高级、复数、the 三个考点一起考。"
+        },
+        {
+          "id": "exam-u8-09",
+          "slot": "any",
+          "tag": "方法",
+          "text": "完形感情色彩法：通读上下文判断情绪倾向——美食、笑声、假期是正面，就选积极词（proud/happy）。"
+        },
+        {
+          "id": "exam-u8-10",
+          "slot": "any",
+          "tag": "方法",
+          "text": "选项「三好一坏选坏，三坏一好选好」：四个选项只有一个负面词时，优先怀疑它，再回原文验证。"
+        },
+        {
+          "id": "exam-u8-11",
+          "slot": "any",
+          "tag": "题型",
+          "text": "江苏最难题型是首字母填空：每天半篇完形 + 一篇阅读，两周后加首字母专项训练。"
+        },
+        {
+          "id": "exam-u8-12",
+          "slot": "any",
+          "tag": "方法",
+          "text": "完形连错 3-4 题说明整篇理解偏差——回头重读首尾段，理清人物情感再检查。"
+        },
+        {
+          "id": "exam-u8-13",
+          "slot": "any",
+          "tag": "题型",
+          "text": "阅读中见 tell the truth 是出题信号：作者接下来要表达真实观点，后面常藏着主旨题答案。"
+        },
+        {
+          "id": "exam-u8-14",
+          "slot": "any",
+          "tag": "易错",
+          "text": "mean doing 表示「意味着做某事」；mean to do 表示「打算做某事」——意思完全不同。"
+        },
+        {
+          "id": "exam-u8-15",
+          "slot": "any",
+          "tag": "概念",
+          "text": "8A 课本新增 Word Power 板块：重点背单词变形，如 honest→honesty→honestly、an honest boy（h 不发音）。"
+        },
+        {
+          "id": "exam-u8-16",
+          "slot": "any",
+          "tag": "语法",
+          "text": "who 引导定语从句 8A 课本零散出现（a girl who tells the truth），9 年级才正式学，见到认识即可。"
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "作文万能句式",
+      "topic_cn": "期中冲刺：开头/过渡/结尾万能句、1+1 展开法、it is 句型按单元套用（来源：B站 曹志初中英语《作文万能句式》+ 英语盖老师《作文1+1句式》+ 英语李八鸭鸭鸭《译林八上作文押题》，AI字幕提炼，2026-10-18）",
+      "key_points": [
+        "万能开头句",
+        "1+1 展开法",
+        "it is adj for sb to do",
+        "三段式收尾"
+      ],
+      "tips": [
+        {
+          "id": "exam-u9-01",
+          "slot": "any",
+          "tag": "写作",
+          "text": "开头：As far as I am concerned, this topic is meaningful and worth discussing.——观点表达万能起手。"
+        },
+        {
+          "id": "exam-u9-02",
+          "slot": "any",
+          "tag": "写作",
+          "text": "开头：There is no doubt that… plays an important role in our daily life.——习惯/运动/环保/阅读都能套。"
+        },
+        {
+          "id": "exam-u9-03",
+          "slot": "any",
+          "tag": "写作",
+          "text": "开头：Different people have different opinions about this hot topic.——利弊分析、观点分歧类专用。"
+        },
+        {
+          "id": "exam-u9-04",
+          "slot": "any",
+          "tag": "写作",
+          "text": "递进：Besides, this behavior can also help us improve ourselves.——补充优点、收获、做法。"
+        },
+        {
+          "id": "exam-u9-05",
+          "slot": "any",
+          "tag": "写作",
+          "text": "On one hand, it can enrich our life; on the other hand, it can broaden our horizons.——丰富生活+开阔眼界。"
+        },
+        {
+          "id": "exam-u9-06",
+          "slot": "any",
+          "tag": "写作",
+          "text": "转折：However, every coin has two sides, and it also has some shortcomings.——从好处过渡到弊端。"
+        },
+        {
+          "id": "exam-u9-07",
+          "slot": "any",
+          "tag": "写作",
+          "text": "结尾：In a word, we should stick to some good habits and never give up easily.——坚持/自律/梦想类。"
+        },
+        {
+          "id": "exam-u9-08",
+          "slot": "any",
+          "tag": "写作",
+          "text": "结尾：All in all, this experience is unforgettable and valuable for us.——记事类：难忘的人/事。"
+        },
+        {
+          "id": "exam-u9-09",
+          "slot": "any",
+          "tag": "写作",
+          "text": "结尾：So we are supposed to take action immediately to make our life better.——环保/节约/文明行为呼吁。"
+        },
+        {
+          "id": "exam-u9-10",
+          "slot": "any",
+          "tag": "方法",
+          "text": "盖老师1+1句式：一个观点句配一个展开句，四种变体——加原因 / 加举例 / 加对比 / 加感受。"
+        },
+        {
+          "id": "exam-u9-11",
+          "slot": "any",
+          "tag": "写作",
+          "text": "观点+对比：Playing games is fun, but it wastes too much time.——一个 but 立刻多一句。"
+        },
+        {
+          "id": "exam-u9-12",
+          "slot": "any",
+          "tag": "写作",
+          "text": "观点+感受：Learning English is challenging, but every progress makes me proud.——形容词表达感受。"
+        },
+        {
+          "id": "exam-u9-13",
+          "slot": "any",
+          "tag": "易错",
+          "text": "结尾必须收尾（哪怕一句总结/感受），戛然而止至少扣 2-3 分；标准三段式：开头-主体-结尾。"
+        },
+        {
+          "id": "exam-u9-14",
+          "slot": "any",
+          "tag": "写作",
+          "text": "高级替换：because→the main reason is that；for example→for instance；补充用 what's more / besides；总结用 in short / to sum up。"
+        },
+        {
+          "id": "exam-u9-15",
+          "slot": "any",
+          "tag": "写作",
+          "text": "万金油句型 it is + adj + for sb + to do：It is important for us to know how to keep safe in an earthquake.（U8 安全自护）"
+        },
+        {
+          "id": "exam-u9-16",
+          "slot": "any",
+          "tag": "写作",
+          "text": "U7 自然环保：It is meaningful to join an environmental group and work as a volunteer.——保护环境类直接套。"
+        },
+        {
+          "id": "exam-u9-17",
+          "slot": "any",
+          "tag": "写作",
+          "text": "U6 季节：It is really interesting to go hiking and have a picnic in autumn.；冬天 make snowmen / have snowball fights。"
+        },
+        {
+          "id": "exam-u9-18",
+          "slot": "any",
+          "tag": "写作",
+          "text": "U5 野生动物：It is difficult for them to have babies. / It is easy for their babies to get sick.——写动物困境。"
+        },
+        {
+          "id": "exam-u9-19",
+          "slot": "any",
+          "tag": "写作",
+          "text": "U4 DIY：DIY is a good way to have fun and save money.——句型模板「…is a good way to…」可无限复制。"
+        },
+        {
+          "id": "exam-u9-20",
+          "slot": "any",
+          "tag": "写作",
+          "text": "地点模板「…is a good place for us to…」：The playground is a good place for us to have fun with friends."
         }
       ]
     }
