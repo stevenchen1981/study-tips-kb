@@ -216,7 +216,7 @@ PAGE_MULTI = """<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
-  <div class="head"><b>{subject_cn} {term} · {unit_label}</b> <span class="tag">第{page_no}/{page_total}页 · {page_title}</span></div>
+  <div class="head"><b>{subject_cn} {term} · {unit_label}</b> <span class="tag">{tag}</span></div>
   <div class="list"><ul>{items}</ul></div>
   <div class="foot">{date_cn} · {learned_label} · 滚动复习，每2分钟随机换新</div>
 </div>
@@ -251,7 +251,7 @@ PAGE_IMAGE = """<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
-  <div class="head"><b>{subject_cn} {term} · {unit_label}</b> <span class="tag">第{page_no}/{page_total}页 · {page_title}</span></div>
+  <div class="head"><b>{subject_cn} {term} · {unit_label}</b> <span class="tag">{tag}</span></div>
   <div class="imgwrap"><img src="/media/{image}" alt="{page_title}"></div>
   <div class="foot">{date_cn} · {learned_label} · 滚动复习，每2分钟随机换新</div>
 </div>
@@ -291,15 +291,16 @@ class Handler(BaseHTTPRequestHandler):
             if "page_no" in item:
                 unit = item["unit"]
                 pg = unit["pages"][item["page_no"]]
+                total_pages = len(unit["pages"])
+                tag_txt = (pg.get("title", "") if total_pages == 1
+                           else f"第{item['page_no'] + 1}/{total_pages}页 · {pg.get('title', '')}")
                 if pg.get("image"):
                     page = PAGE_IMAGE.format(
                         refresh=REFRESH_SECONDS,
                         subject_cn=SUBJECT_CN.get(item["subject"], item["subject"]),
                         term=term_label(item["term"], item["publisher"]),
                         unit_label=unit_label(item["term"], item["subject"], unit),
-                        page_no=item["page_no"] + 1,
-                        page_total=len(unit["pages"]),
-                        page_title=pg.get("title", ""),
+                        tag=tag_txt,
                         image=pg["image"],
                         date_cn=date.today().strftime("%Y年%m月%d日"),
                         learned_label=item["learned_label"],
@@ -317,9 +318,7 @@ class Handler(BaseHTTPRequestHandler):
                     subject_cn=SUBJECT_CN.get(item["subject"], item["subject"]),
                     term=term_label(item["term"], item["publisher"]),
                     unit_label=unit_label(item["term"], item["subject"], unit),
-                    page_no=item["page_no"] + 1,
-                    page_total=len(unit["pages"]),
-                    page_title=pg.get("title", ""),
+                    tag=tag_txt,
                     items="".join(lis),
                     date_cn=date.today().strftime("%Y年%m月%d日"),
                     learned_label=item["learned_label"],
